@@ -1,6 +1,6 @@
 -- Combat settings
 -- NOTE: valid values for worldType are: "pvp", "no-pvp" and "pvp-enforced"
-worldType = "pvp"
+worldType = "no-pvp"
 hotkeyAimbotEnabled = true
 protectionLevel = 7
 pzLocked = 60 * 1000
@@ -26,16 +26,16 @@ cleanProtectionZones = false
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
 -- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25
-ip = "127.0.0.1"
+ip = "laundtaund.servegame.com"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-motd = "Welcome to the OTServBR-Global!"
+motd = "Welcome to Laaaaaund taaaaund"
 onePlayerOnlinePerAccount = true
 allowClones = false
-serverName = "OTServBR-Global"
+serverName = "Laund Taund"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 25
@@ -45,7 +45,7 @@ maxContainer = 100
 -- Packet Compression
 -- Minimize network bandwith and reduce ping
 -- Levels: 0 = disabled, 1 = best speed, 9 = best compression
-packetCompressionLevel = 6
+packetCompressionLevel = 1
 
 -- Depot Limit
 freeDepotLimit = 2000
@@ -95,9 +95,9 @@ allConsoleLog = false
 stashMoving = false
 depotChest = 4
 autoLoot = false
--- autoBank = true, the dropped coins from monsters will be automatically 
+-- autoBank = true, the dropped coins from monsters will be automatically
 -- deposited to your bank account.
-autoBank = false
+autoBank = true
 
 -- Stamina in Trainers
 staminaTrainer = false
@@ -186,15 +186,15 @@ maxMarketOffersAtATimePerPlayer = 100
 -- MySQL
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
-mysqlPass = ""
-mysqlDatabase = "otservbr-global"
+mysqlPass = "root"
+mysqlDatabase = "otserv-laundtaund"
 mysqlPort = 3306
 mysqlSock = ""
 passwordType = "sha1"
 
 -- Misc.
 allowChangeOutfit = true
-freePremium = false
+freePremium = true
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
 emoteSpells = false
@@ -228,7 +228,7 @@ sortLootByChance = false
 -- Rates
 -- NOTE: rateExp, rateSkill and rateMagic is used when 'rateUseStages = false' - or a fallback only
 -- To configure rates see file data/stages.lua
-rateUseStages = false
+rateUseStages = true
 rateExp = 1
 rateSkill = 1
 rateLoot = 1
@@ -247,7 +247,7 @@ rateSoulRegenSpeed = 1.0
 rateSpellCooldown = 1.0
 rateAttackSpeed = 1.0
 rateOfflineTrainingSpeed = rateAttackSpeed
-rateExerciseTrainingSpeed = rateAttackSpeed
+rateExerciseTrainingSpeed = 10.0
 
 -- Monster rates
 rateMonsterHealth = 1.0
