@@ -231,7 +231,7 @@ sortLootByChance = false
 rateUseStages = true
 rateExp = 1
 rateSkill = 1
-rateLoot = 1
+rateLoot = 3
 rateMagic = 1
 rateSpawn = 1
 
