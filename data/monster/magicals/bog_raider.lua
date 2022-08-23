@@ -80,12 +80,12 @@ monster.voices = {
 
 monster.loot = {
 	{name = "gold coin", chance = 92090, maxCount = 105},
-	{name = "plate legs", chance = 200},
+	{name = "plate legs", chance = 530},
 	{name = "great health potion", chance = 2030},
 	{name = "great spirit potion", chance = 2010},
 	{name = "ultimate health potion", chance = 750},
 	{name = "belted cape", chance = 580},
-	{name = "paladin armor", chance = 140},
+	{name = "paladin armor", chance = 260},
 	{name = "springsprout rod", chance = 1020},
 	{name = "boggy dreads", chance = 9870}
 }

@@ -146,8 +146,8 @@ houseRentPeriod = "never"
 houseOwnedByAccount = false
 
 -- Item Usage
-timeBetweenActions = 200
-timeBetweenExActions = 1000
+timeBetweenActions = 150
+timeBetweenExActions = 500
 
 -- Push
 -- NOTE: pushDelay: interval for every push
@@ -237,16 +237,16 @@ rateSpawn = 1
 
 -- Today regeneration condition over an loop every 1 second,
 -- So values which should regenerated less then 1 second or won't will work
-rateHealthRegen = 1.0
-rateHealthRegenSpeed = 1.0
-rateManaRegen = 1.0
-rateManaRegenSpeed = 1.0
-rateSoulRegen = 1.0
-rateSoulRegenSpeed = 1.0
+rateHealthRegen = 5.0
+rateHealthRegenSpeed = 1.5
+rateManaRegen = 5.0
+rateManaRegenSpeed = 1.5
+rateSoulRegen = 10.0
+rateSoulRegenSpeed = 10.0
 
 rateSpellCooldown = 1.0
-rateAttackSpeed = 1.0
-rateOfflineTrainingSpeed = rateAttackSpeed
+rateAttackSpeed = 1.2
+rateOfflineTrainingSpeed = 2.0
 rateExerciseTrainingSpeed = 10.0
 
 -- Monster rates
