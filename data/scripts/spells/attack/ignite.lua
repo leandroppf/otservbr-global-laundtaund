@@ -25,7 +25,7 @@ spell:needTarget(true)
 spell:blockWalls(true)
 
 spell:cooldown(30 * 1000)
-spell:groupCooldown(2 * 1000)
+spell:groupCooldown(1 * 1000)
 spell:needLearn(false)
 spell:vocation("sorcerer;true", "master sorcerer;true")
 spell:register()

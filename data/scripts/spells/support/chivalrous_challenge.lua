@@ -23,7 +23,7 @@ local function chain(player)
 			end
 		end
 	end
- 
+
 	local counter = 1
 	local tempSize = #monsters
 	if tempSize < 5 and #meleeMonsters > 0 then
@@ -34,7 +34,7 @@ local function chain(player)
 			end
 		end
 	end
- 
+
 	local lastChain = player
 	local lastChainPosition = player:getPosition()
 	local closestMonster, closestMonsterIndex, closestMonsterPosition
@@ -74,9 +74,9 @@ local function chain(player)
 	end
 	return totalChain
 end
- 
+
 local spell = Spell("instant")
- 
+
 function spell.onCastSpell(creature, variant)
 	local total = chain(creature)
 	if total > 0 then
@@ -91,7 +91,7 @@ function spell.onCastSpell(creature, variant)
 		return false
 	end
 end
- 
+
 spell:group("support")
 spell:id(237)
 spell:name("Chivalrous Challenge")
@@ -101,7 +101,7 @@ spell:mana(80)
 spell:isAggressive(false)
 spell:isPremium(true)
 spell:cooldown(2 * 1000)
-spell:groupCooldown(2 * 1000)
+spell:groupCooldown(1 * 1000)
 spell:vocation("knight;true", "elite knight;true")
 spell:needLearn(false)
 spell:register()

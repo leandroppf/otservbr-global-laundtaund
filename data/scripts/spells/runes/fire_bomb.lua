@@ -20,6 +20,6 @@ rune:charges(2)
 rune:level(27)
 rune:magicLevel(5)
 rune:cooldown(2 * 1000)
-rune:groupCooldown(2 * 1000)
+rune:groupCooldown(1 * 1000)
 rune:isBlocking(true) -- True = Solid / False = Creature
 rune:register()
