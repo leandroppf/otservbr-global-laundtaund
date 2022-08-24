@@ -139,6 +139,9 @@ Storage = {
 	FreeQuests = 30057,
 	PremiumAccount = 30058,
 
+	--LAUND TAUND QUESTS
+	LaundPrismaticArmor = 30059,
+
 	--[[
 	Old storages
 	Over time, this will be dropped and replaced by the table above

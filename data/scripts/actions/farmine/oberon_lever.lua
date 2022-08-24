@@ -35,10 +35,17 @@ function oberonLever.onUse(creature, item, fromPosition, target, toPosition, isH
 			players[#players+1] = player1
 		end
 		for i, player in ipairs(players) do
+			if player:getStorageValue(Storage.TheSecretLibrary.TheOrderOfTheFalcon.OberonTimer) > os.time() then
+				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'Someone of your team has already fought in the skirmish in the last 2h.')
+				player:getPosition():sendMagicEffect(CONST_ME_POFF)
+				return false
+			end
+		end
+		for i, player in ipairs(players) do
 			player:getPosition():sendMagicEffect(CONST_ME_POFF)
 			player:teleportTo(Position(setting.playerTeleport), false)
 			doSendMagicEffect(player:getPosition(), CONST_ME_TELEPORT)
-			setPlayerStorageValue(player,setting.storage, os.time() + 20 * 60 * 60)
+			setPlayerStorageValue(player,setting.storage, os.time() + 2 * 60 * 60)
 			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'You have 20 minute(s) to defeat the boss.')
 			addEvent(function(cid)
 				local playerToRemove = Player(cid)

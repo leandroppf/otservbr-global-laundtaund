@@ -1127,5 +1127,12 @@ ChestUnique = {
 	[14041] = {
 		itemId = 4285,
 		itemPos = {x = 32211, y = 31273, z = 10}
+	},
+	-- Prismatic Armor
+	[14042] = {
+		itemId = 2472,
+		itemPos = {x = 2284, y = 2112, z = 7},
+		reward = {{16110, 1}},
+		storage = Storage.LaundPrismaticArmor
 	}
 }
