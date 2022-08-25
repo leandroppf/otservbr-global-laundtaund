@@ -142,6 +142,15 @@ Storage = {
 	--LAUND TAUND QUESTS
 	LaundPrismaticArmor = 30059,
 
+	LaundBosses = {
+		TheNightmareBeast = 30060,
+		Mazoran = 30061,
+		Malofur = 30062,
+		KingZelos = 30063,
+		Plagirath = 30064,
+		IzcandarTheBanished = 30065
+	},
+
 	--[[
 	Old storages
 	Over time, this will be dropped and replaced by the table above
