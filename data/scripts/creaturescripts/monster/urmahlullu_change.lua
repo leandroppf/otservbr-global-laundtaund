@@ -14,7 +14,7 @@ local urmahlulluChanges = CreatureEvent("UrmahlulluChanges")
 function urmahlulluChanges.onHealthChange(creature, attacker, primaryDamage, primaryType,
                                           secondaryDamage, secondaryType)
 	if creature and creature:getName() == 'Urmahlullu the Immaculate' then
-		if creature:getHealth() <= 400000 then
+		if creature:getHealth() <= 90000 then
 			position = creature:getPosition()
 			creature:remove()
 			Game.createMonster('Wildness of Urmahlullu', position, true, true)
@@ -23,7 +23,7 @@ function urmahlulluChanges.onHealthChange(creature, attacker, primaryDamage, pri
 		end
 	end
 	if creature and creature:getName() == 'Wildness of Urmahlullu' then
-		if creature:getHealth() <= 300000 then
+		if creature:getHealth() <= 70000 then
 			if os.time() <= time + timetochange  then
 				position = creature:getPosition()
 				creature:remove()
@@ -39,7 +39,7 @@ function urmahlulluChanges.onHealthChange(creature, attacker, primaryDamage, pri
 		end
 	end
 	if creature and creature:getName() == 'Urmahlullu the Tamed' then
-		if creature:getHealth() <= 200000 then
+		if creature:getHealth() <= 40000 then
 			if os.time() <= time + timetochange then
 				position = creature:getPosition()
 				creature:remove()

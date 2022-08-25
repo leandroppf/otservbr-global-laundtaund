@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 370000
-monster.maxHealth = 370000
+monster.health = 87000
+monster.maxHealth = 87000
 monster.race = "fire"
 monster.corpse = 22495
 monster.speed = 400
@@ -79,10 +79,10 @@ monster.loot = {
 	{id = 3041, chance = 1000}, -- blue gem
 	{id = 3051, chance = 4000}, -- energy ring
 	{id = 3320, chance = 3000}, -- fire axe
-	{id = 22760, chance = 500}, -- impaler of the igniter
-	{id = 3442, chance = 500, unique = true}, -- tempest shield
-	{id = 22866, chance = 500}, -- rift bow
-	{id = 22867, chance = 500}, -- rift crossbow
+	{id = 22760, chance = 2000}, -- impaler of the igniter
+	{id = 3442, chance = 1000, unique = true}, -- tempest shield
+	{id = 22866, chance = 1500}, -- rift bow
+	{id = 22867, chance = 1500}, -- rift crossbow
 	{id = 6499, chance = 11000}, -- demonic essence
 	{id = 7382, chance = 1000}, -- demonrage sword
 	{id = 238, chance = 23000, maxCount = 5}, -- great mana potion
@@ -94,7 +94,8 @@ monster.loot = {
 	{id = 7642, chance = 46100, maxCount = 5}, -- great spirit potion
 	{id = 7643, chance = 23000, maxCount = 5}, -- ultimate health potion
 	{id = 9057, chance = 10000, maxCount = 8}, -- small topaz
-	{id = 9058, chance = 3000} -- gold ingot
+	{id = 9058, chance = 3000}, -- gold ingot
+	{id = 16115, chance = 2000} -- gold ingot
 }
 
 monster.attacks = {

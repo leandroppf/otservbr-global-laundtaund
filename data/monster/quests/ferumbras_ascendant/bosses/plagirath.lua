@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 290000
-monster.maxHealth = 290000
+monster.health = 115000
+monster.maxHealth = 115000
 monster.race = "venom"
 monster.corpse = 22495
 monster.speed = 320
@@ -69,7 +69,7 @@ monster.voices = {
 monster.loot = {
 	{id = 22516, chance = 1000000}, -- silver token
 	{id = 10389, chance = 3000}, -- sai
-	{id = 16117, chance = 1820}, -- muck rod
+	{id = 16117, chance = 2000}, -- muck rod
 	{id = 16125, chance = 23000, maxCount = 6}, -- cyan crystal fragment
 	{id = 16126, chance = 23000, maxCount = 6}, -- red crystal fragment
 	{id = 16127, chance = 23000, maxCount = 6}, -- green crystal fragment
@@ -78,10 +78,10 @@ monster.loot = {
 	{id = 3031, chance = 98000, maxCount = 200}, -- gold coin
 	{id = 3033, chance = 10000, maxCount = 5}, -- small amethyst
 	{id = 3035, chance = 8000, maxCount = 58}, -- platinum coin
-	{id = 22727, chance = 800}, -- rift lance
-	{id = 22759, chance = 500, unique = true}, -- plague bite
-	{id = 22866, chance = 800}, -- rift bow
-	{id = 22867, chance = 800}, -- rift crossbow
+	{id = 22727, chance = 3800}, -- rift lance
+	{id = 22759, chance = 2000, unique = true}, -- plague bite
+	{id = 22866, chance = 3800}, -- rift bow
+	{id = 22867, chance = 3800}, -- rift crossbow
 	{id = 6499, chance = 11000}, -- demonic essence
 	{id = 7386, chance = 5000}, -- mercenary sword
 	{id = 281, chance = 14000, maxCount = 5}, -- giant shimmering pearl (green)
@@ -90,10 +90,11 @@ monster.loot = {
 	{id = 7643, chance = 23000, maxCount = 15}, -- ultimate health potion
 	{id = 8073, chance = 4000}, -- spellbook of warding
 	{id = 9057, chance = 10000, maxCount = 8} -- small topaz
+	{id = 22762, chance = 2000} -- maimer
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = -1300, maxDamage = -2250},
+	{name ="melee", interval = 2000, chance = 100, minDamage = -1300, maxDamage = -1850},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_EARTHDAMAGE, minDamage = -500, maxDamage = -900, radius = 4, effect = CONST_ME_GREEN_RINGS, target = false},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -500, maxDamage = -900, range = 4, radius = 4, effect = CONST_ME_POFF, target = true},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_EARTHDAMAGE, minDamage = -1000, maxDamage = -1200, length = 10, spread = 3, effect = CONST_ME_POFF, target = false},
@@ -105,7 +106,7 @@ monster.attacks = {
 monster.defenses = {
 	defense = 55,
 	armor = 55,
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HEALING, minDamage = 3000, maxDamage = 4000, effect = CONST_ME_MAGIC_BLUE, target = false},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_HEALING, minDamage = 500, maxDamage = 1000, effect = CONST_ME_MAGIC_BLUE, target = false},
 	{name ="speed", interval = 2000, chance = 30, speedChange = 440, effect = CONST_ME_MAGIC_RED, target = false, duration = 6000},
 	{name ="plagirath summon", interval = 2000, chance = 15, target = false},
 	{name ="plagirath heal", interval = 2000, chance = 17, target = false}

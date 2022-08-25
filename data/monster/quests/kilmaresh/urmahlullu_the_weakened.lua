@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 100000
-monster.maxHealth = 512000
+monster.health = 20000
+monster.maxHealth = 112000
 monster.race = "blood"
 monster.corpse = 31413
 monster.speed = 190
@@ -85,8 +85,8 @@ monster.loot = {
 	{name = "urmahlullu's mane", chance = 6000},
 	{name = "urmahlullu's paw", chance = 6000},
 	{name = "urmahlullu's tail", chance = 6000},
-	{name = "tagralt blade", chance = 500},
-	{name = "winged boots", chance = 500},
+	{name = "tagralt blade", chance = 2500},
+	{name = "winged boots", chance = 2000},
 	{name = "energy bar", chance = 93000},
 	{name = "yellow gem", chance = 46000},
 	{name = "green gem", chance = 21000},
@@ -101,11 +101,11 @@ monster.loot = {
 	{name = "giant emerald", chance = 6000},
 	{id = 31263, chance = 100000}, -- ring of secret thoughts
 	{name = "giant sapphire", chance = 6000},
-	{name = "winged backpack", chance = 250},
-	{name = "rainbow necklace", chance = 160},
+	{name = "winged backpack", chance = 1500},
+	{name = "rainbow necklace", chance = 1600},
 	{id = 30403, chance = 160}, -- enchanted theurgic amulet
-	{name = "sun medal", chance = 160},
-	{name = "sunray emblem", chance = 160}
+	{name = "sun medal", chance = 1600},
+	{name = "sunray emblem", chance = 1600}
 }
 
 monster.attacks = {

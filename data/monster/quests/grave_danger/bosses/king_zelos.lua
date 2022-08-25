@@ -64,12 +64,12 @@ monster.loot = {
 	{id = 23529, chance = 12000}, -- ring of blue plasma
 	{id = 23533, chance = 12000}, -- ring of red plasma
 	{name = "young lich worm", chance = 5500},
-	{name = "mortal mace", chance = 1300},
+	{name = "mortal mace", chance = 2300},
 	{name = "golden hyaena pendant", chance = 1100},
-	{name = "bow of cataclysm", chance = 600},
-	{name = "galea mortis", chance = 550},
-	{name = "shadow cowl", chance = 530},
-	{name = "toga mortis", chance = 500},
+	{name = "bow of cataclysm", chance = 1600},
+	{name = "galea mortis", chance = 1550},
+	{name = "shadow cowl", chance = 1530},
+	{name = "toga mortis", chance = 1500},
 }
 
 monster.attacks = {

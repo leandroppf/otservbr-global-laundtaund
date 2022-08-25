@@ -73,12 +73,12 @@ monster.loot = {
 	{name = "gemmed figurine", chance = 32030},
 	{name = "small enchanted emerald", chance = 11003, maxCount = 5},
 	{name = "small enchanted ruby", chance = 2000},
-	{name = "silver token", chance = 10140},
+	{name = "silver token", chance = 10140, maxCount = 5},
 	{name = "cluster of solace", chance = 9960},
 	{name = "red crystal fragment", chance = 9960},
 	{name = "small enchanted sapphire", chance = 8900},
 	{name = "assassin star", chance = 8540},
-	{name = "gold token", chance = 6580},
+	{name = "gold token", chance = 6580, maxCount = 5},
 	{name = "gold ingot", chance = 6410},
 	{name = "nightmare blade", chance = 3020}
 }
