@@ -97,6 +97,9 @@ npcConfig.shop = {
 	{ itemName = "ultimate health potion", clientId = 7643, buy = 379 },
 	{ itemName = "ultimate mana potion", clientId = 23373, buy = 438 },
 	{ itemName = "ultimate spirit potion", clientId = 23374, buy = 438 },
+	{ itemName = "empty potion flask", clientId = 284, sell = 5 },
+	{ itemName = "empty potion flask", clientId = 285, sell = 5 },
+	{ itemName = "empty potion flask", clientId = 283, sell = 5 },
 	{ itemName = "wild growth rune", clientId = 3156, buy = 160 }
 }
 -- On buy npc shop message
