@@ -1,7 +1,7 @@
 local config = {
 	bossName = "Faceless Bane",
 	requiredLevel = 250,
-	timeToFightAgain = 20, -- In hour
+	timeToFightAgain = 2, -- In hour
 	timeToDefeatBoss = 20, -- In minutes
 	playerPositions = {
 		{ pos = Position(33638, 32562, 13), teleport = Position(33617, 32567, 13), effect = CONST_ME_TELEPORT },

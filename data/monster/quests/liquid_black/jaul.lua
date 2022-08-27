@@ -68,9 +68,9 @@ monster.loot = {
 	{name = "deepling axe", chance = 1500},
 	{name = "depth calcei", chance = 1100},
 	{id = 13995, chance = 1400}, -- depth galea
-	{name = "depth lorica", chance = 800},
-	{name = "ornate chestplate", chance = 650, unique = true},
-	{name = "ornate legs", chance = 740},
+	{name = "depth lorica", chance = 1800},
+	{name = "ornate chestplate", chance = 1650, unique = true},
+	{name = "ornate legs", chance = 1740},
 	{name = "ornate mace", chance = 1500},
 	{name = "ornate shield", chance = 1400}
 }
