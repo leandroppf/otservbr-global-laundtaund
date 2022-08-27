@@ -492,6 +492,8 @@ npcConfig.shop = {
 	{ itemName = "small pitchfork", clientId = 11513, sell = 70 },
 	{ itemName = "small treasure chest", clientId = 35571, sell = 500 },
 	{ itemName = "snake skin", clientId = 9694, sell = 400 },
+	{ itemName = "lavafungus head", clientId = 36785, sell = 900 },
+	{ itemName = "lavafungus ring", clientId = 36786, sell = 390 },
 	{ itemName = "sniper gloves", clientId = 5875, sell = 2000 },
 	{ itemName = "solid rage", clientId = 23517, sell = 310 },
 	{ itemName = "some grimeleech wings", clientId = 22730, sell = 1200 },
