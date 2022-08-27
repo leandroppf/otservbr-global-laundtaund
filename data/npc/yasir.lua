@@ -610,7 +610,15 @@ npcConfig.shop = {
 	{ itemName = "yirkas' egg", clientId = 34102, sell = 280 },
 	{ itemName = "young lich worm", clientId = 31590, sell = 25000 },
 	{ itemName = "zaogun flag", clientId = 10413, sell = 600 },
-	{ itemName = "zaogun shoulderplates", clientId = 10414, sell = 150 }
+	{ itemName = "zaogun shoulderplates", clientId = 10414, sell = 150 },
+	{ itemName = "lavaworm jaws", clientId = 36771, sell = 1100 },
+	{ itemName = "lavaworm spikes", clientId = 36770, sell = 750 },
+	{ itemName = "lavaworm spike roots", clientId = 36769, sell = 600 },
+	{ itemName = "streaked devourer eyes", clientId = 36772, sell = 500 },
+	{ itemName = "streaked devourer maw", clientId = 36773, sell = 400 },
+	{ itemName = "bashmu tongue", clientId = 36821, sell = 400 },
+	{ itemName = "bashmu feather", clientId = 36823, sell = 350 },
+	{ itemName = "bashmu fang", clientId = 36820, sell = 600 }
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, inBackpacks, name, totalCost)

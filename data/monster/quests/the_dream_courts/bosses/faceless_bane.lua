@@ -84,10 +84,10 @@ monster.loot = {
 	{name = "terra rod", chance = 12000},
 	{name = "cyan crystal fragment", chance = 5500},
 	{name = "green crystal shard", chance = 1300},
-	{name = "ectoplasmic shield", chance = 600},
-	{name = "book backpack", chance = 550},
-	{name = "spirit guide", chance = 530},
-	{id = 30344, chance = 500}, -- enchanted pendulet
+	{name = "ectoplasmic shield", chance = 1600},
+	{name = "book backpack", chance = 1550},
+	{name = "spirit guide", chance = 2530},
+	{id = 30344, chance = 2000}, -- enchanted pendulet
 }
 
 monster.attacks = {
@@ -105,7 +105,7 @@ monster.defenses = {
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = 100},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 50},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = -20},
@@ -114,7 +114,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = 99}
+	{type = COMBAT_DEATHDAMAGE , percent = 50}
 }
 
 monster.heals = {

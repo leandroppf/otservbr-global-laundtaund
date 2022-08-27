@@ -141,6 +141,9 @@ Storage = {
 
 	--LAUND TAUND QUESTS
 	LaundPrismaticArmor = 30059,
+	LaundGnomeQuest = 30066,
+	LaundPhantasmalAxe = 30067,
+	LaundPhantasmalKey = 30068,
 
 	LaundBosses = {
 		TheNightmareBeast = 30060,

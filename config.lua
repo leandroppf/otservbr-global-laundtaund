@@ -215,8 +215,8 @@ globalServerSaveNotifyMessage = true
 globalServerSaveNotifyDuration = 5
 globalServerSaveCleanMap = false
 globalServerSaveClose = false
-globalServerSaveShutdown = true
-globalServerSaveTime = "06:00:00"
+globalServerSaveShutdown = false
+globalServerSaveTime = "09:00:00"
 
 -- Sort loot by chance, most rare items drop first
 -- it is good to be setted when you have a higher

@@ -1134,5 +1134,19 @@ ChestUnique = {
 		itemPos = {x = 2284, y = 2112, z = 7},
 		reward = {{16110, 1}},
 		storage = Storage.LaundPrismaticArmor
+	},
+	-- Phantasmal Axe
+	[14043] = {
+		itemId = 2472,
+		itemPos = {x = 2066, y = 2012, z = 7},
+		reward = {{32616, 1}},
+		storage = Storage.LaundPhantasmalAxe
+	},
+	-- Phantasmal key
+	[14044] = {
+		itemId = 2472,
+		itemPos = {x = 2033, y = 2082, z = 7},
+		reward = {{2970, 1}},
+		storage = Storage.LaundPhantasmalKey
 	}
 }
