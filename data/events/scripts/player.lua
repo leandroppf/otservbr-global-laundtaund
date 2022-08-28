@@ -723,7 +723,32 @@ function Player:onGainExperience(target, exp, rawExp)
 		end
 	end
 
-	return math.max((exp * expStage + (exp * (storeXpBoostAmount/100))) * staminaBoost)
+	local expWithStage = (exp * expStage)
+
+	return math.max((expWithStage * staminaBoost) + (expWithStage * (storeXpBoostAmount/100)))
+end
+
+function Player:updateRateXpGain()
+	-- Set Client XP Gain Rate --
+	local rateExp = 1
+	if Game.getStorageValue(GlobalStorage.XpDisplayMode) > 0 then
+		rateExp = getRateFromTable(experienceStages, self:getLevel(), configManager.getNumber(configKeys.RATE_EXPERIENCE))
+
+		if SCHEDULE_EXP_RATE ~= 100 then
+			rateExp = math.max(0, (rateExp * SCHEDULE_EXP_RATE)/100)
+		end
+	end
+
+	local staminaMinutes = self:getStamina()
+	local staminaBonus = (staminaMinutes > 2340) and 150 or ((staminaMinutes < 840) and 50 or 100)
+
+	local Boost = self:getExpBoostStamina()
+	local stillHasBoost = Boost > 0
+	local storeXpBoostAmount = stillHasBoost and self:getStoreXpBoost() or 0
+	local rateExperience = (rateExp * 100)
+
+	self:setStaminaXpBoost(staminaBonus)
+	self:setBaseXpGain(rateExperience + (rateExperience * (storeXpBoostAmount/100)))
 end
 
 function Player:onLoseExperience(exp)

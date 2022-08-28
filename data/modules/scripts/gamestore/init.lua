@@ -157,10 +157,10 @@ GameStore.RecivedPackets = {
 
 GameStore.ExpBoostValues = {
 	[1] = 30,
-	[2] = 45,
-	[3] = 90,
-	[4] = 180,
-	[5] = 360
+	[2] = 30,
+	[3] = 30,
+	[4] = 30,
+	[5] = 30
 }
 
 GameStore.DefaultValues = {
@@ -1458,6 +1458,7 @@ function GameStore.processExpBoostPuchase(player)
 
 	player:setStoreXpBoost(50)
 	player:setExpBoostStamina(currentExpBoostTime + 3600)
+	player:updateRateXpGain()
 
 	if (player:getStorageValue(GameStore.Storages.expBoostCount) == -1 or expBoostCount == 6) then
 		player:setStorageValue(GameStore.Storages.expBoostCount, 1)
@@ -1652,7 +1653,7 @@ function Player.makeCoinTransaction(self, offer, desc)
 	else
 		desc = offer.name
 	end
-	
+
 	-- Remove coins
 	if offer.coinType == GameStore.CointType.Tournament then
 		op = self:removeTournamentBalance(offer.price)
