@@ -2944,4 +2944,22 @@
 	<npc centerx="32174" centery="32598" centerz="15" radius="1">
 		<npc name="A Wyrm" x="0" y="0" z="15" spawntime="60" />
 	</npc>
+	<npc centerx="997" centery="1004" centerz="7" radius="1">
+		<npc name="Gnomission" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="988" centery="1009" centerz="7" radius="1">
+		<npc name="Telas" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="1006" centery="1009" centerz="7" radius="1">
+		<npc name="Talila" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="989" centery="1014" centerz="7" radius="1">
+		<npc name="Alaistar" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="999" centery="1015" centerz="7" radius="1">
+		<npc name="Gladys" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="1067" centery="1030" centerz="7" radius="1">
+		<npc name="Naji" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 </npcs>
