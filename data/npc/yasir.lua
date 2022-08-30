@@ -623,7 +623,8 @@ npcConfig.shop = {
 	{ itemName = "bashmu fang", clientId = 36820, sell = 600 },
 	{ itemName = "girtablilu warrior carapace", clientId = 36971, sell = 520 },
 	{ itemName = "scorpion charm", clientId = 36822, sell = 620 },
-	{ itemName = "old girtablilu carapace", clientId = 36972, sell = 570 }
+	{ itemName = "old girtablilu carapace", clientId = 36972, sell = 570 },
+	{ itemName = "demonic essence", clientId = 6499, sell = 1000 }
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, inBackpacks, name, totalCost)
