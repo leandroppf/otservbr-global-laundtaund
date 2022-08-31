@@ -144,6 +144,10 @@ Storage = {
 	LaundGnomeQuest = 30066,
 	LaundPhantasmalAxe = 30067,
 	LaundPhantasmalKey = 30068,
+	LaundBoneFiddle = 30069,
+	LaundMoonMirror = 30070,
+	LaundSunCatcher = 30071,
+	LaundStarlightVial = 30072,
 
 	LaundBosses = {
 		TheNightmareBeast = 30060,

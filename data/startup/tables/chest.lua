@@ -1148,5 +1148,33 @@ ChestUnique = {
 		itemPos = {x = 2033, y = 2082, z = 7},
 		reward = {{2970, 1}},
 		storage = Storage.LaundPhantasmalKey
+	},
+	-- Bone Fiddle
+	[14045] = {
+		itemId = 2472,
+		itemPos = {x = 2621, y = 2100, z = 7},
+		reward = {{28493, 1}},
+		storage = Storage.LaundBoneFiddle
+	},
+	-- Moon mirror
+	[14046] = {
+		itemId = 2472,
+		itemPos = {x = 2619, y = 2103, z = 7},
+		reward = {{25975, 1}},
+		storage = Storage.LaundMoonMirror
+	},
+	-- Sun Catcher
+	[14047] = {
+		itemId = 2472,
+		itemPos = {x = 2627, y = 2100, z = 7},
+		reward = {{25977, 1}},
+		storage = Storage.LaundSunCatcher
+	},
+	-- Starlight vial
+	[14048] = {
+		itemId = 2472,
+		itemPos = {x = 2629, y = 2103, z = 7},
+		reward = {{25976, 1}},
+		storage = Storage.LaundStarlightVial
 	}
 }
