@@ -14,11 +14,6 @@ npcConfig.outfit = {
 	lookType = 982
 }
 
-npcConfig.respawnType = {
-	period = RESPAWNPERIOD_NIGHT,
-	underground = false
-}
-
 npcConfig.flags = {
 	floorchange = false
 }
