@@ -185,6 +185,7 @@ npcConfig.shop = {
 	{ itemName = "white silk flower", clientId = 34008, sell = 9000 },
 	{ itemName = "wedding ring", clientId = 3004, buy = 990, sell = 100 },
 	{ itemName = "white pearl", clientId = 3026, buy = 320, sell = 160 },
+	{ itemName = "talon", clientId = 3034, sell = 320 },
 	{ itemName = "rainbow quartz", clientId = 25737, sell = 500 }
 }
 -- On buy npc shop message
