@@ -148,6 +148,7 @@ Storage = {
 	LaundMoonMirror = 30070,
 	LaundSunCatcher = 30071,
 	LaundStarlightVial = 30072,
+	LaundFabulousLegs = 30073,
 
 	LaundBosses = {
 		TheNightmareBeast = 30060,

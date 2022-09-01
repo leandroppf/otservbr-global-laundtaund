@@ -1176,5 +1176,12 @@ ChestUnique = {
 		itemPos = {x = 2629, y = 2103, z = 7},
 		reward = {{25976, 1}},
 		storage = Storage.LaundStarlightVial
+	},
+	-- Fabulous legs
+	[14049] = {
+		itemId = 2472,
+		itemPos = {x = 2088, y = 2115, z = 6},
+		reward = {{32617, 1}},
+		storage = Storage.LaundFabulousLegs
 	}
 }
