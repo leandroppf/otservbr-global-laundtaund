@@ -156,7 +156,8 @@ Storage = {
 		Malofur = 30062,
 		KingZelos = 30063,
 		Plagirath = 30064,
-		IzcandarTheBanished = 30065
+		IzcandarTheBanished = 30065,
+		TPM = 30074
 	},
 
 	--[[

@@ -105,7 +105,9 @@ function loginEvents.onLogin(player)
 		-- The Rookie Guard
 		"VascalirRatKills",
 		-- An Uneasy Alliance
-		"RenegadeOrcKill"
+		"RenegadeOrcKill",
+		-- Laund Taund
+		"TPM"
 	}
 
 	for i = 1, #events do
