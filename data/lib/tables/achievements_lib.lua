@@ -576,7 +576,8 @@ achievements =
 	[478] = {name = "Up the Molehill", grade = 1, points = 3, description = "Putting this candle stump on your new mount was kind of a waiting game. You're even tempted to call it whack-a-mole. But in the end you found a loyal companion for your journeys into the depths."},
 
 	--Laund Taund
-	[479] = {name = "Laund Taund Gnome Quest", grade = 1, points = 5, description = "Gnome Quest concluída!"}
+	[479] = {name = "Laund Taund Gnome Quest", grade = 1, points = 5, description = "Gnome Quest concluída!"},
+	[480] = {name = "Laund Taund TPM", grade = 1, points = 5, description = "Parabéns você sobreviveu a uma TPM!"}
 }
 
 ACHIEVEMENT_FIRST = 1
