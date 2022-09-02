@@ -86,7 +86,7 @@ monster.loot = {
 	{id = 5944, chance = 21500}, -- soul orb
 	{id = 5944, chance = 50}, -- soul orb
 	{id = 3007, chance = 410}, -- crystal ring
-	{id = 6300, chance = 60}, -- death ring
+	{id = 6299, chance = 60}, -- death ring
 	{id = 3439, chance = 100}, -- phoenix shield
 	{id = 19391, chance = 100} -- furious frock
 }
