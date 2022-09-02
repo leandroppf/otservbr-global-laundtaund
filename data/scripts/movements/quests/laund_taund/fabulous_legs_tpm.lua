@@ -21,6 +21,7 @@ function fabulousLegsRewardTp.onStepIn(creature, item, position, fromPosition)
 	doSendMagicEffect(player:getPosition(), CONST_ME_TELEPORT)
 	player:teleportTo(positionReward)
 	doSendMagicEffect(positionReward, CONST_ME_TELEPORT)
+	return true
 end
 
 fabulousLegsRewardTp:type("stepin")

@@ -22,6 +22,7 @@ function theNightmareBeastTp.onStepIn(creature, item, position, fromPosition)
 	doSendMagicEffect(player:getPosition(), CONST_ME_TELEPORT)
 	player:teleportTo(positionBoss)
 	doSendMagicEffect(positionBoss, CONST_ME_TELEPORT)
+	return true
 end
 
 theNightmareBeastTp:type("stepin")
