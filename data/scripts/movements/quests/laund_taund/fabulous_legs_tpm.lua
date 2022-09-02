@@ -11,11 +11,16 @@ function fabulousLegsRewardTp.onStepIn(creature, item, position, fromPosition)
 		return false
 	end
 
-	if(player:getStorageValue(Storage.LaundBosses.TPM) == 1) then
-		doSendMagicEffect(player:getPosition(), CONST_ME_TELEPORT)
-		player:teleportTo(positionReward)
-		doSendMagicEffect(positionReward, CONST_ME_TELEPORT)
+	if player:getStorageValue(Storage.LaundBosses.TPM) < 1 then
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Tem que enfrentar a TPM.")
+		player:teleportTo(fromPosition, true)
+		player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
+		return false
 	end
+
+	doSendMagicEffect(player:getPosition(), CONST_ME_TELEPORT)
+	player:teleportTo(positionReward)
+	doSendMagicEffect(positionReward, CONST_ME_TELEPORT)
 end
 
 fabulousLegsRewardTp:type("stepin")
