@@ -83,21 +83,22 @@ monster.loot = {
 	{name = "cultish robe", chance = 14720},
 	{name = "plate shield", chance = 20020},
 	{name = "great health potion", chance = 11840},
-	{name = "small ruby", chance = 3690, maxCount = 2},
-	{name = "small topaz", chance = 3170, maxCount = 2},
-	{name = "yellow gem", chance = 280},
+	{name = "small ruby", chance = 5690, maxCount = 2},
+	{name = "small topaz", chance = 5170, maxCount = 2},
+	{name = "yellow gem", chance = 1800},
 	{name = "platinum coin", chance = 65250, maxCount = 3},
 	{name = "plate shield", chance = 20710},
-	{name = "small emerald", chance = 3410, maxCount = 2},
-	{name = "small amethyst", chance = 2950, maxCount = 2},
-	{name = "red piece of cloth", chance = 810},
+	{name = "small emerald", chance = 5410, maxCount = 2},
+	{name = "small amethyst", chance = 5950, maxCount = 2},
+	{name = "red piece of cloth", chance = 2810},
 	{name = "ham", chance = 59410},
 	{name = "bronze amulet", chance = 15140},
 	{name = "mino shield", chance = 12670},
 	{id = 3098, chance = 3190}, -- ring of healing
-	{name = "mino lance", chance = 1810},
-	{name = "warrior helmet", chance = 570},
-	{id= 3039, chance = 170}, -- red gem
+	{name = "mino lance", chance = 2810},
+	{name = "warrior helmet", chance = 2570},
+	{id= 3039, chance = 1700}, -- red gem
+	{id= 7401, chance = 1700}, -- minotaur trophy
 	{name = "meat", chance = 8020},
 	{name = "minotaur leather", chance = 11530},
 	{name = "minotaur horn", chance = 14550, maxCount = 2}

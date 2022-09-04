@@ -84,16 +84,17 @@ monster.loot = {
 	{name = "cultish robe", chance = 9200},
 	{name = "purple robe", chance = 16230},
 	{name = "strong mana potion", chance = 10660, maxCount = 3},
-	{name = "small ruby", chance = 2030, maxCount = 2},
-	{name = "small topaz", chance = 2680, maxCount = 2},
-	{name = "yellow gem", chance = 220},
+	{name = "small ruby", chance = 5030, maxCount = 2},
+	{name = "small topaz", chance = 5680, maxCount = 2},
+	{name = "yellow gem", chance = 1820},
 	{name = "platinum coin", chance = 39350, maxCount = 3},
-	{name = "small emerald", chance = 2540, maxCount = 2},
-	{name = "small sapphire", chance = 2170, maxCount = 2},
-	{name = "small diamond", chance = 2900, maxCount = 2},
-	{name = "small amethyst", chance = 2610, maxCount = 2},
+	{name = "small emerald", chance = 5540, maxCount = 2},
+	{name = "small sapphire", chance = 5170, maxCount = 2},
+	{name = "small diamond", chance = 5900, maxCount = 2},
+	{name = "small amethyst", chance = 5610, maxCount = 2},
 	{name = "red piece of cloth", chance = 2460},
-	{id= 3039, chance = 70}, -- red gem
+	{id= 3039, chance = 1700}, -- red gem
+	{id= 7401, chance = 1700}, -- minotaur trophy
 	{name = "minotaur leather", chance = 4780},
 	{name = "minotaur horn", chance = 2320, maxCount = 2}
 }
