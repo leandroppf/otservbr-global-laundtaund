@@ -106,6 +106,9 @@ monster.loot = {
 	{id = 30403, chance = 1600}, -- enchanted theurgic amulet
 	{name = "sun medal", chance = 1600},
 	{name = "sunray emblem", chance = 1600}
+	{name = "golden bijou", chance = 1600}
+	{name = "blue and golden cordon", chance = 1600}
+	{name = "gryphon mask", chance = 1600}
 }
 
 monster.attacks = {
