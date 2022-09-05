@@ -79,7 +79,7 @@ monster.loot = {
 	{id = 5903, chance = 150, unique = true}, -- ferumbras' hat
 	{id = 3031, chance = 98000, maxCount = 184}, -- gold coin
 	{id = 9058, chance = 75000, maxCount = 2}, -- gold ingot
-	{id = 3422, chance = 26000, unique = true}, -- great shield
+	{id = 3422, chance = 2000, unique = true}, -- great shield
 	{id = 8075, chance = 2600}, -- spellbook of lost souls
 	{id = 3360, chance = 8000}, -- golden armor
 	{id = 3364, chance = 8000}, -- golden legs
