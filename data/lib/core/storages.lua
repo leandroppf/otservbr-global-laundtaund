@@ -157,7 +157,8 @@ Storage = {
 		KingZelos = 30063,
 		Plagirath = 30064,
 		IzcandarTheBanished = 30065,
-		TPM = 30074
+		TPM = 30074,
+		FerumbrasTimer = 30075
 	},
 
 	--[[
