@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Ferumbras")
 local monster = {}
 
 monster.description = "Ferumbras"
-monster.experience = 12000
+monster.experience = 120000
 monster.outfit = {
 	lookType = 229,
 	lookHead = 0,
@@ -43,13 +43,13 @@ monster.flags = {
 	canPushItems = true,
 	canPushCreatures = true,
 	staticAttackChance = 90,
-	targetDistance = 2,
-	runHealth = 2500,
+	targetDistance = 1,
+	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
-	canWalkOnEnergy = false,
-	canWalkOnFire = false,
-	canWalkOnPoison = false
+	canWalkOnEnergy = true,
+	canWalkOnFire = true,
+	canWalkOnPoison = true
 }
 
 monster.light = {
@@ -58,7 +58,7 @@ monster.light = {
 }
 
 monster.summon = {
-	maxSummons = 4,
+	maxSummons = 8,
 	summons = {
 		{name = "Demon", chance = 12, interval = 3000, count = 4}
 	}
@@ -76,7 +76,7 @@ monster.voices = {
 }
 
 monster.loot = {
-	{id = 5903, chance = 150, unique = true}, -- ferumbras' hat
+	{id = 5903, chance = 150}, -- ferumbras' hat
 	{id = 3031, chance = 98000, maxCount = 184}, -- gold coin
 	{id = 9058, chance = 75000, maxCount = 2}, -- gold ingot
 	{id = 3422, chance = 2000, unique = true}, -- great shield
@@ -123,23 +123,23 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 300, maxDamage = -950},
+	{name ="melee", interval = 2000, chance = 100, minDamage = -1500, maxDamage = -2950},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_MANADRAIN, minDamage = -500, maxDamage = -1100, range = 7, effect = CONST_ME_MAGIC_RED, target = false},
-	{name ="combat", interval = 2000, chance = 25, type = COMBAT_LIFEDRAIN, minDamage = -400, maxDamage = -950, length = 8, spread = 3, effect = CONST_ME_HITBYPOISON, target = false},
-	{name ="combat", interval = 2000, chance = 21, type = COMBAT_LIFEDRAIN, minDamage = -450, maxDamage = -800, radius = 6, effect = CONST_ME_POFF, target = false},
+	{name ="combat", interval = 2000, chance = 25, type = COMBAT_LIFEDRAIN, minDamage = -300, maxDamage = -550, length = 8, spread = 3, effect = CONST_ME_HITBYPOISON, target = false},
+	{name ="combat", interval = 2000, chance = 21, type = COMBAT_LIFEDRAIN, minDamage = -350, maxDamage = -600, radius = 6, effect = CONST_ME_POFF, target = false},
 	-- poison
-	{name ="condition", type = CONDITION_POISON, interval = 2000, chance = 15, minDamage = -50, maxDamage = -80, range = 7, shootEffect = CONST_ANI_POISON, target = false},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -900, maxDamage = -1600, range = 4, radius = 3, target = false},
+	{name ="condition", type = CONDITION_POISON, interval = 2000, chance = 15, minDamage = -90, maxDamage = -150, range = 7, shootEffect = CONST_ANI_POISON, target = false},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -600, maxDamage = -900, range = 4, radius = 3, target = false},
 	-- energy damage
-	{name ="condition", type = CONDITION_ENERGY, interval = 2000, chance = 18, minDamage = -500, maxDamage = -900, radius = 6, effect = CONST_ME_ENERGYHIT, target = false},
+	{name ="condition", type = CONDITION_ENERGY, interval = 2000, chance = 18, minDamage = -1500, maxDamage = -2900, radius = 6, effect = CONST_ME_ENERGYHIT, target = false},
 	-- fire
-	{name ="condition", type = CONDITION_FIRE, interval = 3000, chance = 20, minDamage = -1000, maxDamage = -1800, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true}
+	{name ="condition", type = CONDITION_FIRE, interval = 3000, chance = 20, minDamage = -2000, maxDamage = -3800, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true}
 }
 
 monster.defenses = {
-	defense = 120,
-	armor = 100,
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_HEALING, minDamage = 1900, maxDamage = 2500, effect = CONST_ME_MAGIC_GREEN, target = false},
+	defense = 180,
+	armor = 150,
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_HEALING, minDamage = 1500, maxDamage = 2000, effect = CONST_ME_MAGIC_GREEN, target = false},
 	{name ="invisible", interval = 4000, chance = 20, effect = CONST_ME_MAGIC_BLUE}
 }
 
