@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 38050
-monster.maxHealth = 38050
+monster.health = 250000
+monster.maxHealth = 250000
 monster.race = "venom"
 monster.corpse = 36612
 monster.speed = 340
@@ -60,22 +60,49 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
-	{text = "Blubb", yell = false}
+	{text = "LAAAAAAAAAAAAAAAUND TAAAAAAAAAAAUND!", yell = true},
+	{text = "I AM THE ESSENCE OF DEATH!", yell = true},
+	{text = "YOU CAN NOT ESCAPE ME!", yell = true},
+	{text = "DESTRUCTION!", yell = false},
+	{text = "DRUIDS! ... LIKE ... DRUID FLAVOUR!", yell = false},
+	{text = "WILL EAT DRUIDS!", yell = false},
+	{text = "KNIGHTS! ... DELICIOUS KNIGHTS!", yell = false},
+	{text = "WILL EAT KNIGHTS!", yell = false},
+	{text = "PALADINS! ... TASTY!", yell = false},
+	{text = "WILL EAT PALADINS!", yell = false},
+	{text = "SORCERERS! ... MUST EAT SORCERERS!", yell = false},
+	{text = "WILL EAT SORCERERS!", yell = false},
+	{text = "HUNGER ... SO ... GREAT! YOU ALL ... WILL ... DIE!!!", yell = false},
+	{text = "DIIIIEEEEE!", yell = false}
 }
 
 monster.loot = {
-	{id = 3031, chance = 100000, maxCount = 100}, -- gold coin
-	{id = 3035, chance = 10000, maxCount = 3}, -- platinum coin
-	{id = 6499, chance = 2857}, -- demonic essence
-	{id = 5944, chance = 2500} -- soul orb
+	{id = 3035, chance = 100000, maxCount = 300}, -- platinum coin
+	{id = 3043, chance = 10000, maxCount = 200}, -- crystal coin
+	{id = 32625, chance = 5000}, -- amber with a dragonfly
+	{id = 36793, chance = 5000}, -- Abomination's Tongue
+	{id = 36792, chance = 5000}, -- Abomination's eye
+	{id = 36791, chance = 5000}, -- Abomination's tail
+	{id = 34023, chance = 5000}, -- Brooch of Embracement
+	{id = 36938, chance = 500} -- fiery horseshoe
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, skill = 90, attack = 120},
-	{name ="speed", interval = 1000, chance = 12, speedChange = -800, radius = 6, effect = CONST_ME_POISONAREA, target = false, duration = 10000},
-	{name ="combat", interval = 1000, chance = 9, type = COMBAT_EARTHDAMAGE, minDamage = -200, maxDamage = -650, radius = 4, effect = CONST_ME_POISONAREA, target = false},
-	{name ="combat", interval = 1000, chance = 11, type = COMBAT_LIFEDRAIN, minDamage = -400, maxDamage = -900, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_SOUND_GREEN, target = true},
-	{name ="combat", interval = 2000, chance = 19, type = COMBAT_PHYSICALDAMAGE, minDamage = -350, maxDamage = -850, length = 7, spread = 3, shootEffect = CONST_ANI_POISON, target = false}
+	{name ="melee", interval = 2000, chance = 100, minDamage = -1400, maxDamage = -2200},
+	{name ="combat", interval = 1000, chance = 7, type = COMBAT_MANADRAIN, minDamage = -900, maxDamage = -1500, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_POFF, target = false},
+	{name ="drunk", interval = 2000, chance = 20, radius = 5, effect = CONST_ME_SMALLCLOUDS, target = false, duration = 9000},
+	{name ="strength", interval = 1000, chance = 9, range = 7, shootEffect = CONST_ANI_LARGEROCK, effect = CONST_ME_ENERGYAREA, target = false},
+	{name ="energy strike", interval = 2000, chance = 30, minDamage = -1500, maxDamage = -2000, range = 1, target = false},
+	{name ="combat", interval = 2000, chance = 8, type = COMBAT_FIREDAMAGE, minDamage = -1250, maxDamage = -1950, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -875, maxDamage = -1805, range = 7, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_ENERGYHIT, target = true},
+	{name ="combat", interval = 1000, chance = 20, type = COMBAT_LIFEDRAIN, minDamage = -600, maxDamage = -1000, radius = 8, effect = CONST_ME_LOSEENERGY, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -650, maxDamage = -800, length = 8, spread = 3, effect = CONST_ME_PURPLEENERGY, target = false},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -450, maxDamage = -1400, radius = 4, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = true},
+	{name ="combat", interval = 1000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -800, maxDamage = -1300, radius = 8, effect = CONST_ME_MAGIC_GREEN, target = false},
+	{name ="speed", interval = 1000, chance = 12, speedChange = -1900, radius = 6, effect = CONST_ME_POISONAREA, target = false, duration = 60000},
+	{name ="strength", interval = 1000, chance = 8, radius = 5, effect = CONST_ME_HITAREA, target = false},
+	{name ="combat", interval = 1000, chance = 34, type = COMBAT_FIREDAMAGE, minDamage = -100, maxDamage = -700, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
+	{name ="combat", interval = 1000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -300, maxDamage = -950, length = 8, spread = 3, effect = CONST_ME_MAGIC_RED, target = false}
 }
 
 monster.defenses = {

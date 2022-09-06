@@ -77,6 +77,7 @@ monster.voices = {
 
 monster.loot = {
 	{id = 5903, chance = 150}, -- ferumbras' hat
+	{id = 22865, chance = 300}, -- mysterious scroll
 	{id = 3031, chance = 98000, maxCount = 184}, -- gold coin
 	{id = 9058, chance = 75000, maxCount = 2}, -- gold ingot
 	{id = 3422, chance = 2000, unique = true}, -- great shield
