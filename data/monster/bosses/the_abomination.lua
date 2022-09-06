@@ -84,8 +84,10 @@ monster.loot = {
 	{id = 36792, chance = 5000}, -- Abomination's eye
 	{id = 36791, chance = 5000}, -- Abomination's tail
 	{id = 34023, chance = 5000}, -- Brooch of Embracement
-	{id = 36938, chance = 500}, -- fiery horseshoe
-	{id = 34072, chance = 500} -- spectral horseshoe
+	{id = 36938, chance = 1200}, -- fiery horseshoe
+	{id = 34072, chance = 1200}, -- spectral horseshoe
+	{id = 34073, chance = 1200}, -- spectral saddle
+	{id = 34074, chance = 1200} -- spectral horse tack
 }
 
 monster.attacks = {
