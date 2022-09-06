@@ -55,10 +55,10 @@ monster.light = {
 }
 
 monster.summon = {
-	maxSummons = 8,
+	maxSummons = 2,
 	summons = {
-		{name = "Charger", chance = 15, interval = 1000, count = 3},
-		{name = "Spark of Destruction", chance = 15, interval = 1000, count = 5}
+		{name = "Charger", chance = 15, interval = 2000, count = 1},
+		{name = "Spark of Destruction", chance = 15, interval = 2000, count = 1}
 	}
 }
 
@@ -104,32 +104,31 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = -1400, maxDamage = -2200},
-	{name ="combat", interval = 1000, chance = 7, type = COMBAT_MANADRAIN, minDamage = -900, maxDamage = -1500, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_POFF, target = false},
+	{name ="melee", interval = 2000, chance = 100, minDamage = -1200, maxDamage = -1600},
+	{name ="combat", interval = 1000, chance = 7, type = COMBAT_MANADRAIN, minDamage = -100, maxDamage = -250, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_POFF, target = false},
 	{name ="drunk", interval = 2000, chance = 20, radius = 5, effect = CONST_ME_SMALLCLOUDS, target = false, duration = 9000},
 	{name ="strength", interval = 1000, chance = 9, range = 7, shootEffect = CONST_ANI_LARGEROCK, effect = CONST_ME_ENERGYAREA, target = false},
-	{name ="energy strike", interval = 2000, chance = 30, minDamage = -1500, maxDamage = -2000, range = 1, target = false},
-	{name ="combat", interval = 2000, chance = 8, type = COMBAT_FIREDAMAGE, minDamage = -1250, maxDamage = -1950, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -875, maxDamage = -1805, range = 7, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_ENERGYHIT, target = true},
-	{name ="combat", interval = 1000, chance = 20, type = COMBAT_LIFEDRAIN, minDamage = -600, maxDamage = -1000, radius = 8, effect = CONST_ME_LOSEENERGY, target = false},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -650, maxDamage = -800, length = 8, spread = 3, effect = CONST_ME_PURPLEENERGY, target = false},
+	{name ="energy strike", interval = 2000, chance = 30, minDamage = -800, maxDamage = -1200, range = 1, target = false},
+	{name ="combat", interval = 2000, chance = 8, type = COMBAT_FIREDAMAGE, minDamage = -750, maxDamage = -950, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -575, maxDamage = -1105, range = 7, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_ENERGYHIT, target = true},
+	{name ="combat", interval = 1000, chance = 20, type = COMBAT_LIFEDRAIN, minDamage = -300, maxDamage = -700, radius = 8, effect = CONST_ME_LOSEENERGY, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -250, maxDamage = -400, length = 8, spread = 3, effect = CONST_ME_PURPLEENERGY, target = false},
 	{name ="renegade knight", interval = 2000, chance = 30, target = false},
 	{name ="choking fear drown", interval = 2000, chance = 20, target = false},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_DEATHDAMAGE, minDamage = -450, maxDamage = -1400, radius = 4, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA, target = true},
-	{name ="combat", interval = 1000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -800, maxDamage = -1300, radius = 8, effect = CONST_ME_MAGIC_GREEN, target = false},
-	{name ="speed", interval = 1000, chance = 12, speedChange = -1900, radius = 6, effect = CONST_ME_POISONAREA, target = false, duration = 60000},
+	{name ="combat", interval = 1000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -100, maxDamage = -300, radius = 8, effect = CONST_ME_MAGIC_GREEN, target = false},
+	{name ="speed", interval = 1000, chance = 12, speedChange = -500, radius = 6, effect = CONST_ME_POISONAREA, target = false, duration = 60000},
 	{name ="strength", interval = 1000, chance = 8, radius = 5, effect = CONST_ME_HITAREA, target = false},
-	{name ="combat", interval = 1000, chance = 34, type = COMBAT_FIREDAMAGE, minDamage = -100, maxDamage = -700, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
-	{name ="combat", interval = 1000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -300, maxDamage = -950, length = 8, spread = 3, effect = CONST_ME_MAGIC_RED, target = false}
+	{name ="combat", interval = 1000, chance = 34, type = COMBAT_FIREDAMAGE, minDamage = -100, maxDamage = -500, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
+	{name ="combat", interval = 1000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -300, maxDamage = -450, length = 8, spread = 3, effect = CONST_ME_MAGIC_RED, target = false}
 }
 
 monster.defenses = {
 	defense = 160,
 	armor = 160,
-	{name ="combat", interval = 6000, chance = 25, type = COMBAT_HEALING, minDamage = 2000, maxDamage = 5000, effect = CONST_ME_MAGIC_BLUE, target = false},
+	{name ="combat", interval = 6000, chance = 25, type = COMBAT_HEALING, minDamage = 200, maxDamage = 800, effect = CONST_ME_MAGIC_BLUE, target = false},
 	{name ="speed", interval = 1000, chance = 8, speedChange = 1901, effect = CONST_ME_MAGIC_RED, target = false, duration = 5000},
-	{name ="invisible", interval = 1000, chance = 4, effect = CONST_ME_MAGIC_BLUE},
-	{name ="invisible", interval = 1000, chance = 17, effect = CONST_ME_MAGIC_BLUE}
+	{name ="invisible", interval = 1000, chance = 4, effect = CONST_ME_MAGIC_BLUE}
 }
 
 monster.reflects = {

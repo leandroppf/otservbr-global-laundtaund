@@ -624,7 +624,10 @@ npcConfig.shop = {
 	{ itemName = "girtablilu warrior carapace", clientId = 36971, sell = 520 },
 	{ itemName = "scorpion charm", clientId = 36822, sell = 620 },
 	{ itemName = "old girtablilu carapace", clientId = 36972, sell = 570 },
-	{ itemName = "demonic essence", clientId = 6499, sell = 1000 }
+	{ itemName = "demonic essence", clientId = 6499, sell = 1000 },
+	{ itemName = "Abomination's tongue", clientId = 36793, sell = 950000 },
+	{ itemName = "Abomination's eye", clientId = 36792, sell = 650000 },
+	{ itemName = "Abomination's tail", clientId = 36791, sell = 700000 }
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, inBackpacks, name, totalCost)
