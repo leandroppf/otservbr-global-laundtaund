@@ -158,7 +158,10 @@ Storage = {
 		Plagirath = 30064,
 		IzcandarTheBanished = 30065,
 		TPM = 30074,
-		FerumbrasTimer = 30075
+		FerumbrasTimer = 30075,
+		TheAbomination = 30076,
+		WorldDevourer = 30077,
+		ScourgeOfOblivion = 30078
 	},
 
 	--[[
