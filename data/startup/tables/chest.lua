@@ -1190,5 +1190,12 @@ ChestUnique = {
 		itemPos = {x = 2636, y = 1974, z = 7},
 		reward = {{3398, 1}},
 		storage = Storage.LaundDwarvenLegs
+	},
+	-- Canivete rosa
+	[14051] = {
+		itemId = 2472,
+		itemPos = {x = 2545, y = 1804, z = 7},
+		reward = {{9596, 1}},
+		storage = Storage.LaundCaniveteRosa
 	}
 }
