@@ -1183,5 +1183,12 @@ ChestUnique = {
 		itemPos = {x = 2088, y = 2115, z = 6},
 		reward = {{32617, 1}},
 		storage = Storage.LaundFabulousLegs
+	},
+	-- Dwarven legs
+	[14050] = {
+		itemId = 2472,
+		itemPos = {x = 2636, y = 1974, z = 7},
+		reward = {{3398, 1}},
+		storage = Storage.LaundDwarvenLegs
 	}
 }
