@@ -629,6 +629,7 @@ npcConfig.shop = {
 	{ itemName = "Abomination's eye", clientId = 36792, sell = 650000 },
 	{ itemName = "Abomination's tail", clientId = 36791, sell = 700000 },
 	{ itemName = "Fire mushroom", clientId = 3731, sell = 200 },
+	{ itemName = "eyeless devourer maw", clientId = 36775, sell = 420 },
 	{ itemName = "eyeless devourer tongue", clientId = 36777, sell = 900 },
 	{ itemName = "eyeless devourer legs", clientId = 36776, sell = 650 },
 	{ itemName = "streaked devourer legs", clientId = 36774, sell = 600 }
