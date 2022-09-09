@@ -632,7 +632,8 @@ npcConfig.shop = {
 	{ itemName = "eyeless devourer maw", clientId = 36775, sell = 420 },
 	{ itemName = "eyeless devourer tongue", clientId = 36777, sell = 900 },
 	{ itemName = "eyeless devourer legs", clientId = 36776, sell = 650 },
-	{ itemName = "streaked devourer legs", clientId = 36774, sell = 600 }
+	{ itemName = "streaked devourer legs", clientId = 36774, sell = 600 },
+	{ itemName = "Cluster of solace", clientId = 20062, sell = 6000 }
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, inBackpacks, name, totalCost)
