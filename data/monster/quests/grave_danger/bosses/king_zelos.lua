@@ -70,6 +70,7 @@ monster.loot = {
 	{name = "galea mortis", chance = 1550},
 	{name = "shadow cowl", chance = 1530},
 	{name = "toga mortis", chance = 1500},
+	{id = 16244, chance = 1000}, -- music box
 }
 
 monster.attacks = {
