@@ -152,7 +152,7 @@ local function creatureSayCallback(npc, creature, type, message)
 			npcHandler:setTopic(playerId, 1)
 		end
 	elseif MsgContains(message, "yes") and npcHandler:getTopic(playerId) == 1 and player:getStorageValue(Storage.Kilmaresh.Eighth.Yonan) == 1 then
-		if player:getStorageValue(Storage.Kilmaresh.Eighth.Yonan) == 1 then	
+		if player:getStorageValue(Storage.Kilmaresh.Eighth.Yonan) == 1 then
 			player:addItem(31717, 1) -- Yonans List
 			player:addItem(31613, 1) -- Pick Enchanted
 			npcHandler:say({"Here is the list with the missing ingredients to complete the ritual."}, npc, creature)-- It needs to be revised, it's not the same as the global
@@ -168,7 +168,7 @@ local function creatureSayCallback(npc, creature, type, message)
 			npcHandler:say({"Did you bring all the materials I informed you about? "}, npc, creature)-- It needs to be revised, it's not the same as the global
 			npcHandler:setTopic(playerId, 3)
 			npcHandler:setTopic(playerId, 3)
-		end	
+		end
 	elseif MsgContains(message, "yes") and npcHandler:getTopic(playerId) == 3 and player:getStorageValue(Storage.Kilmaresh.Eighth.Yonan) == 2 then
 		if player:getStorageValue(Storage.Kilmaresh.Eighth.Yonan) == 2 and player:getItemById(9651, 3) and player:getItemById(31325, 12) and player:getItemById(31333, 10) then
 			player:removeItem(9651, 3)
@@ -180,6 +180,22 @@ local function creatureSayCallback(npc, creature, type, message)
 			npcHandler:setTopic(playerId, 4)
 		else
 			npcHandler:say({"Sorry."}, npc, creature)-- It needs to be revised, it's not the same as the global
+		end
+	end
+
+	if MsgContains(message, "The Regalia of Suon") or MsgContains(message, "mount") then
+		npcHandler:say({"Ta com a mercadoria?"}, npc, creature)
+		npcHandler:setTopic(playerId, 8)
+	elseif MsgContains(message, "yes") and npcHandler:getTopic(playerId) == 8 then
+		if player:getItemById(31572, 1) and player:getItemById(31575, 1) and player:getItemById(31573, 1) and player:getItemById(31574, 1) then
+			player:removeItem(31572, 1)
+			player:removeItem(31573, 1)
+			player:removeItem(31574, 1)
+			player:removeItem(31575, 1)
+			npcHandler:say({"Então toma"}, npc, creature)
+			player:addItem(31576, 1)
+		else
+			npcHandler:say({"Ta tentando passar a perna em mim, quando tiver os 4 items volta. Demora nao!"}, npc, creature)
 		end
 	end
 	return true
