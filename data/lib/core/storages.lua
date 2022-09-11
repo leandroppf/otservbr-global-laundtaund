@@ -151,6 +151,8 @@ Storage = {
 	LaundFabulousLegs = 30073,
 	LaundDwarvenLegs = 30079,
 	LaundCaniveteRosa = 30080,
+	Laundmysterious = 30081,
+	Laundeldrithcquiver = 30082,
 
 	LaundBosses = {
 		TheNightmareBeast = 30060,

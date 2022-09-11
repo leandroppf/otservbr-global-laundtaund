@@ -1198,4 +1198,20 @@ ChestUnique = {
 		reward = {{9596, 1}},
 		storage = Storage.LaundCaniveteRosa
 	}
+
+	-- mysterious scroll
+	[14052] = {
+		itemId = 2472,
+		itemPos = {x = 2823, y = 1912, z = 7},
+		reward = {{22865, 1}},
+		storage = Storage.Laundmysterious
+	}
+
+	-- Eldritch quiver
+	[14053] = {
+		itemId = 2472,
+		itemPos = {x = 2829, y = 1912, z = 7},
+		reward = {{36666, 1}},
+		storage = Storage.Laundeldrithcquiver
+	}
 }
