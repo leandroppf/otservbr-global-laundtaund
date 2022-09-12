@@ -22,7 +22,7 @@ npcConfig.voices = {
 	interval = 15000,
 	chance = 50,
 	{text = 'Compro items de Gado'},
-	{text = 'Se vender pra mim é corno'}
+	{text = 'Se vender pra mim e corno'}
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -52,7 +52,7 @@ npcType.onCloseChannel = function(npc, creature)
 	npcHandler:onCloseChannel(npc, creature)
 end
 
-npcHandler:setMessage(MESSAGE_GREET, 'Deu hi é corno!')
+npcHandler:setMessage(MESSAGE_GREET, 'Deu hi e corno!')
 npcHandler:setMessage(MESSAGE_FAREWELL, 'Ja vai corno?.')
 npcHandler:setMessage(MESSAGE_WALKAWAY, 'Ja vai tarde corno.')
 
