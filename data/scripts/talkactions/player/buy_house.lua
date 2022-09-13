@@ -26,10 +26,10 @@ function buyHouse.onSay(player, words, param)
 		return false
 	end
 
-	if player:getHouse() then
-		player:sendCancelMessage("You are already the owner of a house.")
-		return false
-	end
+	-- if player:getHouse() then
+	-- 	player:sendCancelMessage("You are already the owner of a house.")
+	-- 	return false
+	-- end
 
 	local price = house:getTileCount() * housePrice
 	if not player:removeMoneyBank(price) then
