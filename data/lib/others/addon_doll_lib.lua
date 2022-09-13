@@ -1,4 +1,4 @@
-ssfunction Player:sendAddonWindow(outfits)
+function Player:sendAddonWindow(outfits)
 	local function buttonCallback(button, choice)
 		local outfitName = string.lower(outfits[choice.id].name) -- Converts the outfit name to lowercase
 	-- Modal window functionallity
