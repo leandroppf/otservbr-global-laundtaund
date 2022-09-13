@@ -17101,6 +17101,7 @@
 		<attribute key="weight" value="90"/>
 	</item>
 	<item id="8778" article="a" name="jester doll">
+		<attribute key="description" value="Com o item na bp utilize o comando !addondoll para escolher um addon"/>
 		<attribute key="weight" value="1200"/>
 	</item>
 	<item id="8779" article="the" name="head of a jester doll">

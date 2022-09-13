@@ -1,16 +1,16 @@
 local outfits = {
- 
+
     -- Config
         dollID = 8778, -- Change this to your dolls or items, item ID
-     
+
         -- Main Window Messages (The first window the player sees)
         mainTitle = "Choose an outfit",
         mainMsg = "You will recieve both addons aswell as the outfit you choose.",
-     
+
         -- Already Owned Window (The window that appears when the player already owns the addon)
         ownedTitle = "Whoops!",
         ownedMsg = "You already have this addon. Please choose another.",
-     
+
         -- No Doll in Backpack (The window that appears when the player doesnt have the doll in their backpack)
         dollTitle = "Whoops!",
         dollMsg = "The addon doll must be in your backpack.",
@@ -19,10 +19,10 @@ local outfits = {
     -- Outfit Table
         [1] = {name = "Citizen", male = 128, female = 136},
         [2] = {name = "Hunter", male = 129, female = 137},
-        [3] = {name = "Mage", male = 130, female = 138},
+        [3] = {name = "Royal Pumpkin", male = 760, female = 759},
         [4] = {name = "Knight", male = 131, female = 139},
         [5] = {name = "Noble", male = 132, female = 140},
-        [6] = {name = "Summoner", male = 133, female = 141},
+        [6] = {name = "Sea Dog", male = 750, female = 749},
         [7] = {name = "Warrior", male = 134, female = 142},
         [8] = {name = "Barbarian", male = 143, female = 147},
         [9] = {name = "Druid", male = 144, female = 148},
@@ -62,8 +62,6 @@ local outfits = {
         [43] = {name = "Evoker", male = 725, female = 724},
         [44] = {name = "Seaweaver", male = 733, female = 732},
         [45] = {name = "Recruiter", male = 746, female = 745},
-        [46] = {name = "Sea Dog", male = 750, female = 749},
-        [47] = {name = "Royal Pumpkin", male = 760, female = 759},
     }
 
 local addonsDollModal = TalkAction("!addondoll")
