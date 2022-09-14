@@ -62,6 +62,16 @@ local outfits = {
         [43] = {name = "Evoker", male = 725, female = 724},
         [44] = {name = "Seaweaver", male = 733, female = 732},
         [45] = {name = "Recruiter", male = 746, female = 745},
+        [46] = {name = "Royal Costume", male = 1457, female = 1456},
+        [47] = {name = "Golden", male = 1210, female = 1211},
+        [48] = {name = "Dragon Slayer", male = 1288, female = 1289},
+        [49] = {name = "Revenant", male = 1322, female = 1323},
+        [50] = {name = "Rascoohan", male = 1371, female = 1372},
+        [51] = {name = "Hand of the inquisition", male = 1243, female = 1244},
+        [52] = {name = "Falconer", male = 1371, female = 1372},
+        [53] = {name = "Citizen of Issavi", male = 1386, female = 1387},
+        [54] = {name = "Orcsoberfest Garb", male = 1251, female = 1252},
+        [55] = {name = "Poltergeist", male = 1270, female = 1271},
     }
 
 local addonsDollModal = TalkAction("!addondoll")
