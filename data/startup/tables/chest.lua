@@ -1213,5 +1213,12 @@ ChestUnique = {
 		itemPos = {x = 2829, y = 1912, z = 7},
 		reward = {{36666, 1}},
 		storage = Storage.Laundeldrithcquiver
+	},
+	-- Jester Doll
+	[14054] = {
+		itemId = 2472,
+		itemPos = {x = 2806, y = 1988, z = 10},
+		reward = {{8778, 1}},
+		storage = Storage.LaundJester
 	}
 }
