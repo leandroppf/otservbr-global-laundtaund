@@ -1422,6 +1422,7 @@ GameStore.Categories = {
           id = 142,
           description = "{character}\n{speedboost}\n\n<i>To the keen observer, the crocovile is clearly a relative of the crocodile, albeit their look suggests an even more aggressive nature. While it is true that the power of its massive and muscular body can not only crush enemies dead but also break through any gate like a battering ram, a crocovile is, above all, a steadfast companion showing unwavering loyalty to its owner.</i>",
           type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+					home = true,
         },
         {
           icons = { "Swamp_Snapper.png" },
@@ -1902,7 +1903,6 @@ GameStore.Categories = {
           id = 179,
           description = "{character}\n{speedboost}\n\n<i>If you are looking for a vigilant and faithful companion, look no further! Glide through every realm and stare into the darkest abyss on the back of a Void Watcher. They already know everything about you anyway for they have been watching you from the shadows!</i>",
           type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-          home = true,
         },
         {
           icons = { "Rune_Watcher.png" },
@@ -1911,7 +1911,6 @@ GameStore.Categories = {
           id = 180,
           description = "{character}\n{speedboost}\n\n<i>If you are looking for a vigilant and faithful companion, look no further! Glide through every realm and stare into the darkest abyss on the back of a Rune Watcher. They already know everything about you anyway for they have been watching you from the shadows!</i>",
           type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-          home = true,
         },
         {
           icons = { "Rift_Watcher.png" },
@@ -1920,7 +1919,6 @@ GameStore.Categories = {
           id = 181,
           description = "{character}\n{speedboost}\n\n<i>If you are looking for a vigilant and faithful companion, look no further! Glide through every realm and stare into the darkest abyss on the back of a Rift Watcher. They already know everything about you anyway for they have been watching you from the shadows!</i>",
           type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-          home = true,
         },
       },
    rookgaard = true,
@@ -2293,7 +2291,6 @@ GameStore.Categories = {
           addon = 3,
           description = "{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>A Rune Master has dedicated their whole life to the study and mastery of runes. They are intrigued by the ancient symbols, shrouded in mystery, and how their magic works. Rune Masters have a deep understanding of the awesome power they are wielding and can make use of the full potential of runes.</i>",
           type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-          home = true,
         },
       },
    rookgaard = true,
@@ -4114,6 +4111,7 @@ GameStore.Categories = {
           id = 65010,
           description = "<i>Purchase a boost that increases the experience points your character gains from hunting by 50%!</i>\n\n{character}\n{info} lasts for 1 hour hunting time\n{info} paused if stamina falls under 14 hours\n{info} can be purchased up to 5 times between 2 server saves\n{info} price increases with every purchase\n{info} cannot be purchased if an XP boost is already active",
           type = GameStore.OfferTypes.OFFER_TYPE_EXPBOOST,
+					home = true,
         },
       },
    rookgaard = true,
@@ -4167,6 +4165,7 @@ GameStore.Categories = {
 					itemtype = 8778,
 					description = "<i>Com o item na bp utilize o comando !addondoll para escolher um addon</i>",
 					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+					home = true,
 				},
         {
           icons = { "Gold_Converter.png" },
@@ -4219,6 +4218,7 @@ GameStore.Categories = {
           id = 65008,
           description = "<i>Get an additional prey slot to activate additional prey!</i>\n\n{character}\n{info} maximum amount that can be owned by character: 3\n{info} added directly to Prey dialog",
           type = GameStore.OfferTypes.OFFER_TYPE_PREYSLOT,
+					home = true,
         },
         {
           icons = { "Prey_Bonus_Reroll.png" },
