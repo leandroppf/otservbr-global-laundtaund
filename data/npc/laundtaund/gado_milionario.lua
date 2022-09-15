@@ -64,6 +64,12 @@ npcConfig.shop = {
 
 	{ itemName = "fire mushroom", clientId = 3731, buy = 500 },
 	{ itemName = "flask of rust remover", clientId = 9016, buy = 50 },
+	{ itemName = "lasting exercise sword", clientId = 35285, buy = 7000000, count = 14400 }, 
+	{ itemName = "lasting exercise bow", clientId = 35288, buy = 7000000 , count = 14400},
+	{ itemName = "lasting exercise club", clientId = 35287, buy = 7000000 , count = 14400 },
+	{ itemName = "lasting exercise axe", clientId = 35286, buy = 7000000 , count = 14400},
+	{ itemName = "lasting exercise rod", clientId = 35289, buy = 7000000 , count = 14400 },
+	{ itemName = "lasting exercise wand", clientId = 35290, buy = 7000000 , count = 14400},
 
 	--SELL
 
