@@ -7,16 +7,16 @@ local config = {
 local expensiveOutfits = {
 	--config
 	-- Main Window Messages (The first window the player sees)
-	mainTitle = "Escolhe a roupinha cara. Rico!",
-	mainMsg = "Você vai ganhar o addon 1 e 2 em.",
+	mainTitle = "Escolhe uma roupinha cara. Rico!",
+	mainMsg = "Voce vai ganhar o addon 1 e 2 em.",
 
 	-- Already Owned Window (The window that appears when the player already owns the addon)
 	ownedTitle = "EEEEEPA!",
-	ownedMsg = "Você já tem esse ué.",
+	ownedMsg = "Voce ja tem esse ue.",
 
 	-- No Doll in Backpack (The window that appears when the player doesnt have the doll in their backpack)
 	dollTitle = "EEEEEPA!",
-	dollMsg = "Tem que ter um dos addon dolls ué",
+	dollMsg = "Tem que ter um dos addon dolls ue",
 	-- End Config
 
 	-- Outfit Table
@@ -50,16 +50,16 @@ local expensiveOutfits = {
 local outfits = {
 	--config
 	-- Main Window Messages (The first window the player sees)
-	mainTitle = "Escolhe a roupinha.",
-	mainMsg = "Você vai ganhar o addon 1 e 2 em.",
+	mainTitle = "Escolhe uma roupinha.",
+	mainMsg = "Voce vai ganhar o addon 1 e 2 em.",
 
 	-- Already Owned Window (The window that appears when the player already owns the addon)
 	ownedTitle = "EEEEEPA!",
-	ownedMsg = "Você já tem esse ué.",
+	ownedMsg = "Voce ja tem esse ue.",
 
 	-- No Doll in Backpack (The window that appears when the player doesnt have the doll in their backpack)
 	dollTitle = "EEEEEPA!",
-	dollMsg = "Tem que ter um dos addon dolls ué",
+	dollMsg = "Tem que ter um dos addon dolls ue",
 	-- End Config
 
 	-- Outfit Table
@@ -86,16 +86,16 @@ local outfits = {
 local cheapOutfits = {
 	--config
 	-- Main Window Messages (The first window the player sees)
-	mainTitle = "Escolhe seu outfit.",
-	mainMsg = "Você vai ganhar o addon 1 e 2 em.",
+	mainTitle = "Escolhe uma roupinha.",
+	mainMsg = "Voce vai ganhar o addon 1 e 2 em.",
 
 	-- Already Owned Window (The window that appears when the player already owns the addon)
 	ownedTitle = "EEEEEPA!",
-	ownedMsg = "Você já tem esse ué.",
+	ownedMsg = "Voce ja tem esse ue.",
 
 	-- No Doll in Backpack (The window that appears when the player doesnt have the doll in their backpack)
 	dollTitle = "EEEEEPA!",
-	dollMsg = "Tem que ter um dos addon dolls ué",
+	dollMsg = "Tem que ter um dos addon dolls ue",
 	-- End Config
 
 	-- Outfit Table
