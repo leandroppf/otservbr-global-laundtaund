@@ -114,19 +114,19 @@ local addonsDollModal = TalkAction("!addondoll")
 
 function addonsDollModal.onSay(player, words, param)
 	-- Codigo para expensive doll
-	if player:getItemCount(config.expensiveDollID, 1) then
+	if player:getItemCount(config.expensiveDollID) > 0 then
 		player:sendAddonWindow(expensiveOutfits, config.expensiveDollID)
 		return true
 	end
 
 	-- Código para doll
-	if player:getItemCount(config.dollID, 1) then
+	if player:getItemCount(config.dollID) > 0 then
 		player:sendAddonWindow(outfits, config.dollID)
 		return true
 	end
 
 	-- Código para cheap doll
-	if player:getItemCount(config.cheapDollID, 1) then
+	if player:getItemCount(config.cheapDollID) > 0 then
 		player:sendAddonWindow(cheapOutfits, config.cheapDollID)
 		return true
 	end
