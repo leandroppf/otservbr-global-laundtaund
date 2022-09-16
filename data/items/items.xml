@@ -17101,7 +17101,7 @@
 		<attribute key="weight" value="90"/>
 	</item>
 	<item id="8778" article="a" name="jester doll">
-		<attribute key="description" value="Com o item na bp utilize o comando !addondoll para escolher um addon"/>
+		<attribute key="description" value="Addon doll para addons mais raros. Com o item na bp utilize o comando !addondoll para escolher um addon"/>
 		<attribute key="weight" value="1200"/>
 	</item>
 	<item id="8779" article="the" name="head of a jester doll">
@@ -19660,6 +19660,7 @@
 	</item>
 	<item fromid="10225" toid="10226" article="a" name="shrine"/>
 	<item id="10227" article="a" name="nightmare doll">
+		<attribute key="description" value="Addon doll para addons intermediarios. Com o item na bp utilize o comando !addondoll para escolher um addon"/>
 		<attribute key="weight" value="1800"/>
 	</item>
 	<item fromid="10228" toid="10243" article="a" name="sand"/>
@@ -40238,7 +40239,7 @@
 	</item>
 	<item fromid="27843" toid="27844" name="RESERVED SPRITE"/>
 	<item fromid="27845" toid="27846" article="a" name="Citizen Doll">
-		<attribute key="description" value="This doll carries the story of all Tibians in their legendary citizen outfit. Awarded by TibiaTV.com.br"/>
+		<attribute key="description" value="Addon doll para addons comuns. Com o item na bp utilize o comando !addondoll para escolher um addon"/>
 		<attribute key="weight" value="2200"/>
 	</item>
 	<item id="27847" article="a" name="bony rod">
