@@ -145,7 +145,7 @@ function addonsDollModal.onSay(player, words, param)
 	window:setDefaultEscapeButton("Back")
 
 	-- Send the window to player
-	window:sendToPlayer(self)
+	window:sendToPlayer(player)
 	return true
 end
 
