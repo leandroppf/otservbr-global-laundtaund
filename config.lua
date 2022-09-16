@@ -146,8 +146,8 @@ houseRentPeriod = "never"
 houseOwnedByAccount = false
 
 -- Item Usage
-timeBetweenActions = 150
-timeBetweenExActions = 500
+timeBetweenActions = 100
+timeBetweenExActions = 100
 
 -- Push
 -- NOTE: pushDelay: interval for every push
@@ -205,7 +205,7 @@ coinImagesURL = "http://127.0.0.1/images/store/"
 classicAttackSpeed = false
 showScriptsLogInConsole = false
 -- configure maximum value of critical imbuement
-criticalChance = 10
+criticalChance = 50
 inventoryGlowOnFiveBless = false
 adventurersBlessingLevel = 21
 
