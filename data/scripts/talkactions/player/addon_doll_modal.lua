@@ -134,7 +134,7 @@ function addonsDollModal.onSay(player, words, param)
 	-- Modal window design
 	local window = ModalWindow {
 		title = "EEEEEPA!", -- Title of the modal window
-		message = "Tem que ter um dos addon dolls ué", -- The message to be displayed on the modal window
+		message = "Tem que ter um dos addon dolls ue", -- The message to be displayed on the modal window
 	}
 
 	-- Add buttons to the window (Note: if you change the names of these you must change the functions in the modal window functionallity!)
