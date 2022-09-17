@@ -154,6 +154,8 @@ Storage = {
 	Laundmysterious = 30081,
 	Laundeldrithcquiver = 30082,
 	LaundJester = 30083,
+	LaundCitizen = 30084,
+	LaundNightmare = 30085,
 
 	LaundBosses = {
 		TheNightmareBeast = 30060,

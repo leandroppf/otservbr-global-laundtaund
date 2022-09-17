@@ -1220,5 +1220,19 @@ ChestUnique = {
 		itemPos = {x = 2806, y = 1988, z = 10},
 		reward = {{8778, 1}},
 		storage = Storage.LaundJester
+	},
+	-- Citizen Doll
+	[14055] = {
+		itemId = 2472,
+		itemPos = {x = 340, y = 1019, z = 7},
+		reward = {{27845, 1}},
+		storage = Storage.LaundCitizen
+	},
+	-- Nightmare Doll
+	[14056] = {
+		itemId = 2472,
+		itemPos = {x = 288, y = 1114, z = 7},
+		reward = {{10227, 1}},
+		storage = Storage.LaundNightmare
 	}
 }
