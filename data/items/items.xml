@@ -44633,7 +44633,7 @@
 		<attribute key="weight" value="10"/>
 	</item>
 	<item id="31322" name="RESERVED SPRITE"/>
-	<item id="31323" name="sea horse figurine">
+	<item id="31323" article="a" name="sea horse figurine">
 		<attribute key="weight" value="650"/>
 	</item>
 	<item id="31324" article="a" name="golden mask">

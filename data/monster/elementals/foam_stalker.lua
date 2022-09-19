@@ -87,11 +87,12 @@ monster.elements = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = -100, maxDamage = -300},
-	{name ="foamsplash", interval = 5000, chance = 50, minDamage = -100, maxDamage = -300},
-	{name ="combat", interval = 2500, chance = 35, type = COMBAT_ICEDAMAGE, minDamage = -100, maxDamage = -300, length = 6, spread = 0, effect = CONST_ME_LOSEENERGY},
-	{name ="combat", interval = 2000, chance = 45, type = COMBAT_ICEDAMAGE, minDamage = -100, maxDamage = -300, range = 4, radius = 1, target = true, effect = CONST_ME_ICEATTACK, shootEffect = CONST_ANI_ICE},
-	{name ="combat", interval = 1000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -100, maxDamage = -300, radius = 4, target = false, effect = CONST_ME_ICEAREA}
+	{name ="melee", interval = 2000, chance = 100, minDamage = -150, maxDamage = -350},
+	{name ="foamsplash", interval = 5000, chance = 50, minDamage = -300, maxDamage = -360},
+	{name ="combat", interval = 2500, chance = 35, type = COMBAT_ICEDAMAGE, minDamage = -150, maxDamage = -350, length = 6, spread = 0, effect = CONST_ME_LOSEENERGY},
+	{name ="combat", interval = 2000, chance = 45, type = COMBAT_ICEDAMAGE, minDamage = -300, maxDamage = -450, range = 4, radius = 1, target = true, effect = CONST_ME_ICEATTACK, shootEffect = CONST_ANI_ICE},
+	{name ="combat", interval = 1000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -120, maxDamage = -300, radius = 4, target = false, effect = CONST_ME_ICEAREA},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = -170, maxDamage = -250, range = 7, target = false}
 }
 
 monster.defenses = {
