@@ -125,20 +125,20 @@ monster.loot = {
 	{name = "knight legs", chance = 3649},
 	{name = "violet gem", chance = 4389},
 
-	{name = "naga axe", chance = 30},
-	{name = "naga sword", chance = 30},
-	{name = "naga club", chance = 30},
-	{name = "midnight sarong", chance = 30},
-	{name = "dawnfire pantaloons", chance = 30},
-	{name = "frostflower boots", chance = 30},
-	{name = "feverbloom boots", chance = 30},
-	{name = "naga crossbow", chance = 30},
-	{name = "naga wand", chance = 30},
-	{name = "naga rod", chance = 30},
-	{name = "midnight tunic", chance = 30},
-	{name = "dawnfire sherwani", chance = 30},
-	{id = 39233, chance = 30}, -- enchanted turtle amulet
-	{name = "naga quiver", chance = 30}
+	{name = "naga axe", chance = 10},
+	{name = "naga sword", chance = 10},
+	{name = "naga club", chance = 10},
+	{name = "midnight sarong", chance = 10},
+	{name = "dawnfire pantaloons", chance = 10},
+	{name = "frostflower boots", chance = 10},
+	{name = "feverbloom boots", chance = 10},
+	{name = "naga crossbow", chance = 10},
+	{name = "naga wand", chance = 10},
+	{name = "naga rod", chance = 10},
+	{name = "midnight tunic", chance = 10},
+	{name = "dawnfire sherwani", chance = 10},
+	{id = 39233, chance = 10}, -- enchanted turtle amulet
+	{name = "naga quiver", chance = 10}
 }
 
 mType:register(monster)
