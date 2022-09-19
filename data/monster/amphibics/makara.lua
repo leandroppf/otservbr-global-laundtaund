@@ -77,7 +77,7 @@ monster.loot = {
 	{name = "platinum coin", chance = 100000, maxCount = 13},
 	{name = "meat", chance = 7600},
 	{name = "cyan crystal fragment", chance = 2570},
-	{name = "sea horse figurine", chance = 290},
+	{name = "sea horse figurine", chance = 2290},
 	{name = "makara fin", chance = 10800},
 	{name = "green crystal shard", chance = 2860},
 	{name = "yellow gem", chance = 2510},
@@ -85,7 +85,22 @@ monster.loot = {
 	{name = "makara tongue", chance = 9540},
 	{name = "green crystal fragment", chance = 2630},
 	{name = "rainbow quartz", chance = 2340, maxCount = 2},
-	{name = "small diamond", chance = 1770, maxCount = 3}
+	{name = "small diamond", chance = 1770, maxCount = 3},
+
+	{name = "naga axe", chance = 30},
+	{name = "naga sword", chance = 30},
+	{name = "naga club", chance = 30},
+	{name = "midnight sarong", chance = 30},
+	{name = "dawnfire pantaloons", chance = 30},
+	{name = "frostflower boots", chance = 30},
+	{name = "feverbloom boots", chance = 30},
+	{name = "naga crossbow", chance = 30},
+	{name = "naga wand", chance = 30},
+	{name = "naga rod", chance = 30},
+	{name = "midnight tunic", chance = 30},
+	{name = "dawnfire sherwani", chance = 30},
+	{id = 39233, chance = 30}, -- enchanted turtle amulet
+	{name = "naga quiver", chance = 30}
 }
 
 monster.attacks = {
@@ -94,13 +109,13 @@ monster.attacks = {
 	{name ="combat", interval = 2000, chance = 50, type = COMBAT_ICEDAMAGE, minDamage = -282, maxDamage = -315, range = 7, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_WATERSPLASH, target = true},
 	{name ="combat", interval = 6000, chance = 50, type = COMBAT_EARTHDAMAGE, minDamage = -282, maxDamage = -315, range = 7, shootEffect = CONST_ME_STONES, effect = CONST_ANI_EARTH, target = false},
 	{name ="makarawatersplash", interval = 6000, chance = 38, minDamage = -800, maxDamage = -1300},
-	
+
 }
 
 monster.defenses = {
 	defense = 74,
 	armor = 74
-	
+
 }
 
 monster.elements = {

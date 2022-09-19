@@ -80,14 +80,32 @@ monster.loot = {
 	{name = "platinum coin", chance = 100000, maxCount = 13},
 	{name = "naga armring", chance = 7730},
 	{name = "spiky club", chance = 3090},
-	{name = "crystal crossbow", chance = 430},
+	{name = "ice cube", chance = 4430},
+	{name = "plate armor", chance = 4430},
+	{name = "scimitar", chance = 4430},
+	{name = "katana", chance = 4430},
 	{name = "naga archer scales", chance = 15640},
 	{name = "violet crystal shard", chance = 1980},
-	{name = "naga warrior scales", chance = 430},
-	{name = "knight armor", chance = 430},
-	{name = "serpent sword", chance = 90},
+	{name = "naga warrior scales", chance = 4430},
+	{name = "knight armor", chance = 4430},
+	{name = "serpent sword", chance = 5090},
 	{name = "naga earring", chance = 13830},
-	{name = "relic sword", chance = 430},
+	{name = "relic sword", chance = 3430},
+
+	{name = "naga axe", chance = 30},
+	{name = "naga sword", chance = 30},
+	{name = "naga club", chance = 30},
+	{name = "midnight sarong", chance = 30},
+	{name = "dawnfire pantaloons", chance = 30},
+	{name = "frostflower boots", chance = 30},
+	{name = "feverbloom boots", chance = 30},
+	{name = "naga crossbow", chance = 30},
+	{name = "naga wand", chance = 30},
+	{name = "naga rod", chance = 30},
+	{name = "midnight tunic", chance = 30},
+	{name = "dawnfire sherwani", chance = 30},
+	{id = 39233, chance = 30}, -- enchanted turtle amulet
+	{name = "naga quiver", chance = 30}
 }
 
 monster.attacks = {

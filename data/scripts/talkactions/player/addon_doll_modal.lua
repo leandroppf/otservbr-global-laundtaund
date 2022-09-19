@@ -45,6 +45,7 @@ local expensiveOutfits = {
 	[23] = {name = "Rift Warrior", male = 846, female = 845},
 	[24] = {name = "Royal Bounacean Advisor", male = 1436, female = 1437},
 	[25] = {name = "Royal Costume", male = 1457, female = 1456},
+	[26] = {name = "Fire-Fighter", male = 1568, female = 1569},
 }
 
 local outfits = {

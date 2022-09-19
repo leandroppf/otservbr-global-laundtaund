@@ -101,7 +101,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{name = "platinum coin", chance = 100000, maxCount = 50},
+	{name = "platinum coin", chance = 100000, maxCount = 23},
 	{name = "halberd", chance = 11025},
 	{name = "strong mana potion", chance = 9728},
 	{name = "orichalcum pearl", chance = 9728},
@@ -118,11 +118,26 @@ monster.loot = {
 	{id = 3027, chance = 4669}, -- black pearl
 	{name = "small diamond", chance = 3891},
 	{name = "small emerald", chance = 3243, maxCount = 2},
-	{id = 281, chance = 2205}, -- giant shimmering pearl (green)
+	{id = 281, chance = 4205}, -- giant shimmering pearl (green)
 	{name = "terra boots", chance = 5075},
 	{name = "mercenary sword", chance = 4167},
 	{name = "knight legs", chance = 3649},
-	{name = "violet gem", chance = 3389}
+	{name = "violet gem", chance = 4389},
+
+	{name = "naga axe", chance = 30},
+	{name = "naga sword", chance = 30},
+	{name = "naga club", chance = 30},
+	{name = "midnight sarong", chance = 30},
+	{name = "dawnfire pantaloons", chance = 30},
+	{name = "frostflower boots", chance = 30},
+	{name = "feverbloom boots", chance = 30},
+	{name = "naga crossbow", chance = 30},
+	{name = "naga wand", chance = 30},
+	{name = "naga rod", chance = 30},
+	{name = "midnight tunic", chance = 30},
+	{name = "dawnfire sherwani", chance = 30},
+	{id = 39233, chance = 30}, -- enchanted turtle amulet
+	{name = "naga quiver", chance = 30}
 }
 
 mType:register(monster)

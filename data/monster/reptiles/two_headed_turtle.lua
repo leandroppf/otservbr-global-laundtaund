@@ -98,49 +98,64 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{name = "platinum coin", chance = 100000, maxCount = 80},
+	{name = "platinum coin", chance = 100000, maxCount = 30},
 	{name = "great health potion", chance = 15701},
 	{name = "two-headed turtle heads", chance = 15000},
 	{name = "strong mana potion", chance = 13373},
 	{name = "hydrophytes", chance = 9552},
 	{id = 1047, chance = 6388}, -- bone
 	{name = "glacier shoes", chance = 6239},
-	{id = 281, chance = 3582}, -- giant shimmering pearl (green)
-	{name = "small tropical fish", chance = 3582},
-	{name = "coral brooch", chance = 3343},
-	{name = "silver brooch", chance = 2507},
-	{name = "lightning headband", chance = 6448},
-	{name = "knight legs", chance = 7269},
-	{name = "gemmed figurine", chance = 2090},
-	{name = "emerald bangle", chance = 1373},
-	{name = "terra amulet", chance = 1373},
-	{id = 3040, chance = 1313}, -- "gold nugget"
+	{id = 281, chance = 4582}, -- giant shimmering pearl (green)
+	{name = "small tropical fish", chance = 4582},
+	{name = "coral brooch", chance = 4343},
+	{name = "silver brooch", chance = 4507},
+	{name = "glacier shoes", chance = 4448},
+	{name = "glacier mask", chance = 4269},
+	{name = "knight legs", chance = 5269},
+	{name = "gemmed figurine", chance =42090},
+	{name = "emerald bangle", chance = 4373},
+	{name = "terra amulet", chance = 4373},
+	{id = 3040, chance = 4313}, -- "gold nugget"
 	{name = "spellbook of enlightenment", chance = 6134},
-	{id = 3565, chance = 1015}, -- "cape"
-	{id = 10422, chance = 657}, -- "clay lump"
-	{name = "white gem", chance = 418}
+	{id = 3565, chance = 5015}, -- "cape"
+	{id = 10422, chance = 4657}, -- "clay lump"
+	{name = "white gem", chance = 4418},
+
+	{name = "naga axe", chance = 30},
+	{name = "naga sword", chance = 30},
+	{name = "naga club", chance = 30},
+	{name = "midnight sarong", chance = 30},
+	{name = "dawnfire pantaloons", chance = 30},
+	{name = "frostflower boots", chance = 30},
+	{name = "feverbloom boots", chance = 30},
+	{name = "naga crossbow", chance = 30},
+	{name = "naga wand", chance = 30},
+	{name = "naga rod", chance = 30},
+	{name = "midnight tunic", chance = 30},
+	{name = "dawnfire sherwani", chance = 30},
+	{id = 39233, chance = 30}, -- enchanted turtle amulet
+	{name = "naga quiver", chance = 30}
 }
 
 mType:register(monster)
 
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
