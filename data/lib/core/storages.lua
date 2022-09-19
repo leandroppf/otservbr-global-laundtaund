@@ -138,8 +138,8 @@ Storage = {
 	ChayenneKeyTime = 30056,
 	FreeQuests = 30057,
 	PremiumAccount = 30058,
-	BattleAxeQuest = 30059,
-	ShrineEntrance = 30060,
+	BattleAxeQuest = 30086,
+	ShrineEntrance = 30087,
 
 	--LAUND TAUND QUESTS
 	LaundPrismaticArmor = 30059,
