@@ -24,6 +24,7 @@ function createHirelingType(HirelingName)
 	}
 
 	npcConfig.shop = {
+		{itemName = "blood herb", clientId = 3734, sell = 25000},
 		{itemName = "amphora", clientId = 2893, buy = 4},
 		{itemName = "animate dead rune", clientId = 3203, buy = 377},
 		{itemName = "armor rack kit", clientId = 6114, buy = 90},
