@@ -1290,5 +1290,12 @@ ChestUnique = {
 		itemPos = {x = 288, y = 1114, z = 7},
 		reward = {{10227, 1}},
 		storage = Storage.LaundNightmare
+	},
+	-- Primal Bag
+	[14057] = {
+		itemId = 2472,
+		itemPos = {x = 364, y = 871, z = 7},
+		reward = {{39546, 1}},
+		storage = Storage.LaundPrimal
 	}
 }
