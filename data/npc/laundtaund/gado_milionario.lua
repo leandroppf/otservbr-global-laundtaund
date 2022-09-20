@@ -73,6 +73,24 @@ npcConfig.shop = {
 
 	--SELL
 
+	-- Primal
+	{ itemName = "charged alicorn ring", clientId = 39180, sell = 1000000 },
+	{ itemName = "alicorn ring", clientId = 39182, sell = 1000000 },
+	{ itemName = "alicorn headguard", clientId = 39149, sell = 1000000 },
+	{ itemName = "alicorn quiver", clientId = 39150, sell = 1000000 },
+	{ itemName = "arboreal crown", clientId = 39153, sell = 1000000 },
+	{ itemName = "alicorn tome", clientId = 39154, sell = 1000000 },
+	{ itemName = "charged arboreal ring", clientId = 39186, sell = 1000000 },
+	{ itemName = "arboreal ring", clientId = 39188, sell = 1000000 },
+	{ itemName = "arcanomancer regalia", clientId = 39151, sell = 1000000 },
+	{ itemName = "arcanomancer folio", clientId = 39152, sell = 1000000 },
+	{ itemName = "charged arcanomancer sigil", clientId = 39183, sell = 1000000 },
+	{ itemName = "arcanomancer sigil", clientId = 39185, sell = 1000000 },
+	{ itemName = "spiritthorn armor", clientId = 39147, sell = 1000000 },
+	{ itemName = "spiritthorn helmet", clientId = 39148, sell = 1000000 },
+	{ itemName = "charged spiritthorn ring", clientId = 39177, sell = 1000000 },
+	{ itemName = "spiritthorn ring", clientId = 39179, sell = 1000000 },
+
 	-- Soul War
 	{ itemName = "soultainter", clientId = 34090, sell = 1000000 },
 	{ itemName = "soulstrider", clientId = 34093, sell = 1000000 },
@@ -92,6 +110,23 @@ npcConfig.shop = {
 	{ itemName = "soulbastion", clientId = 34099, sell = 1000000 },
 	{ itemName = "pair of soulwalkers", clientId = 34097, sell = 1000000 },
 	{ itemName = "pair of soulstalkers", clientId = 34098, sell = 1000000 },
+
+	-- Naga
+	{ itemName = "naga axe", clientId = 39156, sell = 50000 },
+	{ itemName = "naga sword", clientId = 39155, sell = 50000 },
+	{ itemName = "naga club", clientId = 39157, sell = 50000 },
+	{ itemName = "midnight sarong", clientId = 39167, sell = 50000 },
+	{ itemName = "dawnfire pantaloons", clientId = 39166, sell = 50000 },
+	{ itemName = "frostflower boots", clientId = 39158, sell = 50000 },
+	{ itemName = "feverbloom boots", clientId = 39161, sell = 50000 },
+	{ itemName = "naga crossbow", clientId = 39159, sell = 50000 },
+	{ itemName = "naga wand", clientId = 39162, sell = 50000 },
+	{ itemName = "naga rod", clientId = 39163, sell = 50000 },
+	{ itemName = "midnight tunic", clientId = 39165, sell = 50000 },
+	{ itemName = "dawnfire sherwani", clientId = 39164, sell = 50000 },
+	{ itemName = "naga quiver", clientId = 39160, sell = 50000 },
+	{ itemName = "turtle amulet", clientId = 39235, sell = 50000 },
+	{ itemName = "enchanted turtle amulet", clientId = 39233, sell = 50000 },
 
 	-- Grand Master Oberon
 	{ itemName = "falcon rod", clientId = 28716, sell = 250000 },
