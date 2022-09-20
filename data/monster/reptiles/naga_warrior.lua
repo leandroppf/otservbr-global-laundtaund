@@ -107,9 +107,9 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 300, maxDamage = -440},
-	{name ="combat", interval = 3000, chance = 47, type = COMBAT_PHYSICALDAMAGE, minDamage = -380, maxDamage = -500, effect = CONST_ME_YELLOWSMOKE, target = true},
-	{name ="combat", interval = 4000, chance = 31, type = COMBAT_LIFEDRAIN, minDamage = -480, maxDamage = -520, radius = 4, effect = CONST_ME_DRAWBLOOD, target = false},
+	{name ="melee", interval = 2000, chance = 100, minDamage = 200, maxDamage = -330},
+	{name ="combat", interval = 3000, chance = 47, type = COMBAT_PHYSICALDAMAGE, minDamage = -320, maxDamage = -330, effect = CONST_ME_YELLOWSMOKE, target = true},
+	{name ="combat", interval = 4000, chance = 31, type = COMBAT_LIFEDRAIN, minDamage = -260, maxDamage = -380, radius = 4, effect = CONST_ME_DRAWBLOOD, target = false},
 	{name ="combat", interval = 2000, chance = 41, type = COMBAT_LIFEDRAIN, minDamage = -250, maxDamage = -350, effect = CONST_ME_DRAWBLOOD, target = true}
 }
 
