@@ -32,7 +32,7 @@ function forge.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		return true
 	end
 
-	if item:getCount(38652) <= 0 then
+	if item:getCount(2914) <= 0 then
 		player:sendTextMessage(MESSAGE_STATUS_SMALL, "You don't have the amount of items needed to forge.")
 		player:sendTextMessage(MESSAGE_STATUS_DEFAULT, "You don't have the amount of items needed to forge.")
 		player:getPosition():sendMagicEffect(CONST_ME_POFF)
@@ -68,5 +68,5 @@ function forge.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	return true
 end
 
-forge:id(37128)
+forge:id(2941)
 forge:register()
