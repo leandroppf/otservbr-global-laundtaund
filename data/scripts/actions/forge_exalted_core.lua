@@ -68,5 +68,5 @@ function forge.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	return true
 end
 
-forge:id(38652)
+forge:id(37128)
 forge:register()
