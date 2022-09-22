@@ -1,7 +1,7 @@
 config = {
-	expensiveDollID = 37743, -- Draptor doll
-	dollID = ,
-	cheapDollID = ,
+	expensiveDollID = 27591, -- Santa fox
+	dollID = 12736, -- Babel swimmer
+	cheapDollID = 123, -- Toy mouse
 }
 
 local expensiveMounts = {
