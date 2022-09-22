@@ -138,14 +138,17 @@ function mountsDollModal.onSay(player, words, param)
 	-- Codigo para expensive doll
 	if player:getItemCount(config.expensiveDollID) > 0 then
 		player:sendMountWindow(expensiveMounts, config.expensiveDollID)
+		return true
 	end
 	-- Codigo para doll
 	if player:getItemCount(config.dollID) > 0 then
 		player:sendMountWindow(mounts, config.dollID)
+		return true
 	end
 	-- Codigo para cheap doll
 	if player:getItemCount(config.cheapDollID) > 0 then
 		player:sendMountWindow(cheapMounts, config.cheapDollID)
+		return true
 	end
 
 	-- Modal window design
