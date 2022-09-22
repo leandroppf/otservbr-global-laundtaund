@@ -136,15 +136,15 @@ local mountsDollModal = TalkAction("!mountdoll")
 
 function mountsDollModal.onSay(player, words, param)
 	-- Codigo para expensive doll
-	if played:getItemCount(config.expensiveDollID) > 0 then
+	if player:getItemCount(config.expensiveDollID) > 0 then
 		player:sendMountWindow(expensiveMounts, config.expensiveDollID)
 	end
 	-- Codigo para doll
-	if played:getItemCount(config.dollID) > 0 then
+	if player:getItemCount(config.dollID) > 0 then
 		player:sendMountWindow(mounts, config.dollID)
 	end
 	-- Codigo para cheap doll
-	if played:getItemCount(config.cheapDollID) > 0 then
+	if player:getItemCount(config.cheapDollID) > 0 then
 		player:sendMountWindow(cheapMounts, config.cheapDollID)
 	end
 
