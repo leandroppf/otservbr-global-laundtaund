@@ -4196,6 +4196,7 @@ GameStore.Categories = {
 					itemtype = 39546,
 					description = "<i>Item que pode ser usado para obter os items bis Primal!</i>",
 					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+					count = 1,
 					home = true,
 				},
 				{
@@ -4205,6 +4206,7 @@ GameStore.Categories = {
 					itemtype = 34109,
 					description = "<i>Item que pode ser usado para obter os items bis Soul War!</i>",
 					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+					count = 1,
 				},
 				{
 					icons = { "Santa_Fox.png" },
@@ -4213,6 +4215,7 @@ GameStore.Categories = {
 					itemtype = 27591,
 					description = "<i>Com o item na bp utilize o comando !mountdoll para escolher uma montaria rara ou muito cara</i>",
 					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+					count = 1,
 					home = true,
 				},
 				{
@@ -4222,6 +4225,7 @@ GameStore.Categories = {
 					itemtype = 12736,
 					description = "<i>Com o item na bp utilize o comando !mountdoll para escolher uma montaria intermediária</i>",
 					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+					count = 1,
 					home = true,
 				},
 				{
@@ -4231,6 +4235,7 @@ GameStore.Categories = {
 					itemtype = 123,
 					description = "<i>Com o item na bp utilize o comando !mountdoll para escolher uma montaria comum</i>",
 					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+					count = 1,
 					home = true,
 				},
 				{
@@ -4240,6 +4245,7 @@ GameStore.Categories = {
 					itemtype = 8778,
 					description = "<i>Com o item na bp utilize o comando !addondoll para escolher um addon raro ou muito caro</i>",
 					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+					count = 1,
 				},
 				{
 					icons = { "Nightmare_Doll.png" },
@@ -4248,6 +4254,7 @@ GameStore.Categories = {
 					itemtype = 10227,
 					description = "<i>Com o item na bp utilize o comando !addondoll para escolher um addon intermediário</i>",
 					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+					count = 1,
 				},
 				{
 					icons = { "Citizen_Doll.png" },
@@ -4256,6 +4263,7 @@ GameStore.Categories = {
 					itemtype = 27845,
 					description = "<i>Com o item na bp utilize o comando !addondoll para escolher um addon comum</i>",
 					type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+					count = 1,
 				},
         {
           icons = { "Gold_Converter.png" },
