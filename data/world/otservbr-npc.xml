@@ -960,19 +960,19 @@
 	<npc centerx="999" centery="1015" centerz="7" radius="1">
 		<npc name="Gladys" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="1058" centery="1017" centerz="7" radius="3">
+		<npc name="Zuma Magehide" x="0" y="2" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="1067" centery="1017" centerz="7" radius="3">
+		<npc name="Runtel Blackspark" x="0" y="2" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="978" centery="1018" centerz="7" radius="1">
 		<npc name="Grizzly Adams" x="0" y="0" z="7" spawntime="60" />
-	</npc>
-	<npc centerx="1059" centery="1018" centerz="7" radius="3">
-		<npc name="Zuma Magehide" x="-1" y="1" z="7" spawntime="60" />
-	</npc>
-	<npc centerx="1066" centery="1018" centerz="7" radius="3">
-		<npc name="Runtel Blackspark" x="0" y="2" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="1003" centery="1019" centerz="7" radius="1">
 		<npc name="Hanna" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="1058" centery="1026" centerz="7" radius="1">
+	<npc centerx="1055" centery="1026" centerz="7" radius="1">
 		<npc name="Gado Milionario" x="0" y="-1" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="990" centery="1027" centerz="7" radius="1">
@@ -981,11 +981,14 @@
 	<npc centerx="1000" centery="1031" centerz="7" radius="1">
 		<npc name="Lailene" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="1057" centery="1032" centerz="7" radius="1">
+	<npc centerx="1055" centery="1033" centerz="7" radius="1">
 		<npc name="Archery" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="1067" centery="1032" centerz="7" radius="1">
-		<npc name="Naji" x="-1" y="0" z="7" spawntime="60" />
+	<npc centerx="1063" centery="1033" centerz="7" radius="1">
+		<npc name="Cledwyn" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="1071" centery="1033" centerz="7" radius="1">
+		<npc name="Naji" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="994" centery="1034" centerz="7" radius="1">
 		<npc name="Rock In A Hard Place" x="-1" y="0" z="7" spawntime="60" />
