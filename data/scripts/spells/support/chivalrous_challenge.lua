@@ -26,8 +26,8 @@ local function chain(player)
 
 	local counter = 1
 	local tempSize = #monsters
-	if tempSize < 5 and #meleeMonsters > 0 then
-		for i = tempSize, 5 do
+	if tempSize < 9 and #meleeMonsters > 0 then
+		for i = tempSize, 9 do
 			if meleeMonsters[counter] ~= nil then
 				table.insert(monsters, meleeMonsters[counter])
 				counter = counter + 1
@@ -39,7 +39,7 @@ local function chain(player)
 	local lastChainPosition = player:getPosition()
 	local closestMonster, closestMonsterIndex, closestMonsterPosition
 	local path, tempPosition, updateLastChain
-	while (totalChain < 5 and #monsters > 0) do
+	while (totalChain < 9 and #monsters > 0) do
 		closestMonster = nil
 		for index, monster in pairs(monsters) do
 			tempPosition = monster:getPosition()
