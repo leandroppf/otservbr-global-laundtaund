@@ -672,7 +672,9 @@ npcConfig.shop = {
 	{ itemName = "naga armring", clientId = 39411, sell = 390 },
 	{ itemName = "naga archer scales", clientId = 39413, sell = 340 },
 	{ itemName = "naga earring", clientId = 39412, sell = 380 },
-	{ itemName = "naga warrior scales", clientId = 39414, sell = 340 }
+	{ itemName = "naga warrior scales", clientId = 39414, sell = 340 },
+	{ itemName = "Carnisylvan fingers", clientId = 36805, sell = 250 },
+	{ itemName = "Carnisylvan barks", clientId = 36806, sell = 230 },
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
