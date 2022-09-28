@@ -1297,5 +1297,19 @@ ChestUnique = {
 		itemPos = {x = 364, y = 871, z = 7},
 		reward = {{39546, 1}},
 		storage = Storage.LaundPrimal
+	},
+	-- Toy Mouse
+	[14058] = {
+		itemId = 2472,
+		itemPos = {x = 704, y = 1164, z = 7},
+		reward = {{123, 1}},
+		storage = Storage.LaundToy
+	},
+	-- Babel Swimmer
+	[14059] = {
+		itemId = 2472,
+		itemPos = {x = 851, y = 1104, z = 6},
+		reward = {{12736, 1}},
+		storage = Storage.LaundBabel
 	}
 }

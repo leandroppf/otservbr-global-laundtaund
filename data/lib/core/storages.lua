@@ -159,6 +159,8 @@ Storage = {
 	LaundCitizen = 30084,
 	LaundNightmare = 30085,
 	LaundPrimal = 30088,
+	LaundToy = 30089,
+	LaundBabel = 30090,
 
 	LaundBosses = {
 		TheNightmareBeast = 30060,
