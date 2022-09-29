@@ -79,7 +79,7 @@ monster.loot = {
 	{ name= "spike sword", chance = 5500},
 	{ name= "war hammer", chance = 5500},
 	{ name= "knife", chance = 7500},
-	{ name= "titan axe", chance = 5500}
+	{ name= "titan axe", chance = 5500},
 	{ name= "wand of starstorm", chance = 7500},
 	{ id = 39546, chance = 50 } --primal bag
 }
