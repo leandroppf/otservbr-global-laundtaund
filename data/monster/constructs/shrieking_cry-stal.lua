@@ -84,10 +84,10 @@ monster.loot = {
 }
 
 monster.attacks = {
-    {name ="combat", interval = 2000, chance = 100, minDamage = -800, maxDamage = -1200 } ,
-		{name ="singleenergychain", interval = 3000, chance = 24, minDamage = -650, maxDamage = -1100, range = 4, effect = CONST_ME_ENERGYHIT, target = true},
-    {name ="combat", interval = 3000, chance = 39, type = COMBAT_PHYSICALDAMAGE, minDamage = -950, maxDamage = -1400, length = 5, spread = 2, effect = CONST_ME_SOUND_PURPLE, target = false},
-    {name ="combat", interval = 2000, chance = 28, type = COMBAT_ENERGYDAMAGE, minDamage = -900, maxDamage = -1350, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
+    {name ="combat", interval = 2000, chance = 100, minDamage = -600, maxDamage = -900 } ,
+		{name ="singleenergychain", interval = 3000, chance = 24, minDamage = -650, maxDamage = -900, range = 4, effect = CONST_ME_ENERGYHIT, target = true},
+    {name ="combat", interval = 3000, chance = 39, type = COMBAT_PHYSICALDAMAGE, minDamage = -750, maxDamage = -1200, length = 5, spread = 2, effect = CONST_ME_SOUND_PURPLE, target = false},
+    {name ="combat", interval = 2000, chance = 28, type = COMBAT_ENERGYDAMAGE, minDamage = -700, maxDamage = -1150, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
 }
 
 monster.defenses = {

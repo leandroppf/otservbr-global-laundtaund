@@ -82,7 +82,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-    {name ="combat", interval = 2000, chance = 100, minDamage = -750, maxDamage = -1100 } ,
+    {name ="combat", interval = 2000, chance = 100, minDamage = -750, maxDamage = -950 } ,
 		{name ="combat", interval = 3000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -800, maxDamage = -1200, radius = 4, effect = CONST_ME_ENERGYHIT, target = false},
 		{name ="combat", interval = 3000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -550, maxDamage = -1100, radius = 4, effect = CONST_ME_YELLOW_RINGS, target = false},
     {name ="speed", interval = 2000, chance = 15, speedChange = -700, target = true, range = 1, shootEffect = CONST_ANI_ENERGYBALL, duration = 13000},

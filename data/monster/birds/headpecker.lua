@@ -85,9 +85,9 @@ monster.loot = {
 }
 
 monster.attacks = {
-    {name ="combat", interval = 2000, chance = 100, minDamage = -750, maxDamage = -1200 } ,
-    {name ="headpeckerslash", interval = 3000, chance = 25, target = false, minDamage = -1000, maxDamage = -1550},
-    {name ="combat", interval = 3000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -900, maxDamage = -1400, range = 1, radius = 3, effect = CONST_ME_POISONAREA, target = false},
+    {name ="combat", interval = 2000, chance = 100, minDamage = -550, maxDamage = -900 } ,
+    {name ="headpeckerslash", interval = 3000, chance = 25, target = false, minDamage = -800, maxDamage = -1250},
+    {name ="combat", interval = 3000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -700, maxDamage = -1200, range = 1, radius = 3, effect = CONST_ME_POISONAREA, target = false},
 }
 
 monster.defenses = {

@@ -84,11 +84,11 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="combat", interval = 2000, chance = 100, minDamage = -800, maxDamage = -1200 } ,
-	{name ="combat", interval = 2000, chance = 25, type = COMBAT_ENERGYDAMAGE, minDamage = -1050, maxDamage = -1400, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
-	{name ="combat", interval = 3000, chance = 25, type = COMBAT_PHYSICALDAMAGE, minDamage = -1000, maxDamage = -1400, range = 4, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = false},
-	{name ="combat", interval = 3000, chance = 41, type = COMBAT_EARTHDAMAGE, minDamage = -700, maxDamage = -1100, range = 6, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = true},
-	{name ="combat", interval = 2500, chance = 35, type = COMBAT_ENERGYDAMAGE, minDamage = -950, maxDamage = -1200, range = 5, radius = 5, effect = CONST_ME_PURPLESMOKE, target = false},
+	{name ="combat", interval = 2000, chance = 100, minDamage = -600, maxDamage = -800 } ,
+	{name ="combat", interval = 2000, chance = 25, type = COMBAT_ENERGYDAMAGE, minDamage = -850, maxDamage = -1200, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
+	{name ="combat", interval = 3000, chance = 25, type = COMBAT_PHYSICALDAMAGE, minDamage = -800, maxDamage = -1200, range = 4, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = false},
+	{name ="combat", interval = 3000, chance = 41, type = COMBAT_EARTHDAMAGE, minDamage = -500, maxDamage = -900, range = 6, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = true},
+	{name ="combat", interval = 2500, chance = 35, type = COMBAT_ENERGYDAMAGE, minDamage = -750, maxDamage = -1000, range = 5, radius = 5, effect = CONST_ME_PURPLESMOKE, target = false},
 }
 
 monster.defenses = {
