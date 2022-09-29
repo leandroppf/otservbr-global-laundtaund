@@ -69,24 +69,25 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name= "crystal coin", chance = 42857, maxCount = 1},
-	{ name= "headpecker feather", chance = 15000},
+	{ name= "crystal coin", chance = 42857, maxCount = 2},
+	{ name= "headpecker feather", chance = 15000, maxCount = 2},
 	{ name= "headpecker beak", chance = 14286},
-	{ name= "wand of starstorm", chance = 7500},
-	{ name= "gold ingot", chance = 7500},
-	{ name= "furry club", chance = 7143},
+	{ name= "gold ingot", chance = 8500},
+	{ name= "blue gem", chance = 8500},
 	{ id= 3595 , chance = 7143, maxCount = 7}, -- carrot
-	{ name= "blue gem", chance = 2500},
-	{ name= "spike sword", chance = 2500},
-	{ name= "war hammer", chance = 2500},
-	{ name= "knife", chance = 2500},
-	{ name= "titan axe", chance = 2500}
+	{ name= "furry club", chance = 7143},
+	{ name= "spike sword", chance = 5500},
+	{ name= "war hammer", chance = 5500},
+	{ name= "knife", chance = 7500},
+	{ name= "titan axe", chance = 5500}
+	{ name= "wand of starstorm", chance = 7500},
+	{ id = 39546, chance = 50 } --primal bag
 }
 
 monster.attacks = {
-    {name ="combat", interval = 2000, chance = 100, minDamage = -250, maxDamage = -600 } ,
-    {name ="headpeckerslash", interval = 4000, chance = 25, target = false, minDamage = -500, maxDamage = -1000},
-    {name ="combat", interval = 3500, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -950, maxDamage = -1500, range = 1, radius = 3, effect = CONST_ME_POISONAREA, target = false},
+    {name ="combat", interval = 2000, chance = 100, minDamage = -750, maxDamage = -1200 } ,
+    {name ="headpeckerslash", interval = 3000, chance = 25, target = false, minDamage = -1000, maxDamage = -1550},
+    {name ="combat", interval = 3000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -900, maxDamage = -1400, range = 1, radius = 3, effect = CONST_ME_POISONAREA, target = false},
 }
 
 monster.defenses = {

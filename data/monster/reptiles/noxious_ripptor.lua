@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Noxious Ripptor")
 local monster = {}
 
 monster.description = "a noxious ripptor"
-monster.experience = 15300 
+monster.experience = 15300
 monster.outfit = {
 	lookType = 1558,
 	lookHead = 0,
@@ -29,7 +29,7 @@ monster.health = 21500
 monster.maxHealth = 21500
 monster.race = "blood"
 monster.corpse = 39323
-monster.speed = 180 
+monster.speed = 180
 monster.manaCost = 0
 
 monster.changeTarget = {
@@ -73,15 +73,18 @@ monster.loot = {
 	{ name = "ultimate health potion", chance = 21053, maxCount = 2},
 	{ name = "ripptor claw", chance = 15789, maxCount = 2},
 	{ name = "ripptor scales", chance = 10526},
-	{ name = "muck rod", chance = 9510},
+	{ name = "muck rod", chance = 8510},
 	{ name = "serpent sword", chance = 9510},
 	{ name = "sacred tree amulet", chance = 5263},
-	{ name = "terra legs", chance = 2000},
-	{ name = "wooden spellbook", chance = 2000},
+	{ name = "terra legs", chance = 4000},
+	{ name = "wooden spellbook", chance = 4000},
+	{ id = 39546, chance = 50 } --primal bag
 }
 
 monster.attacks = {
-    {name ="combat", interval = 2000, chance = 100, minDamage = -300, maxDamage = -1100 } ,
+    {name ="combat", interval = 2000, chance = 100, minDamage = -750, maxDamage = -1100 } ,
+		{name ="combat", interval = 3000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -800, maxDamage = -1200, radius = 4, effect = CONST_ME_ENERGYHIT, target = false},
+		{name ="combat", interval = 3000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -550, maxDamage = -1100, radius = 4, effect = CONST_ME_YELLOW_RINGS, target = false},
     {name ="speed", interval = 2000, chance = 15, speedChange = -700, target = true, range = 1, shootEffect = CONST_ANI_ENERGYBALL, duration = 13000},
 }
 

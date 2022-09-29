@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Mantosaurus")
 local monster = {}
 
 monster.description = "a mantosaurus"
-monster.experience = 13420  
+monster.experience = 13420
 monster.outfit = {
 	lookType = 1556,
 	lookHead = 0,
@@ -69,8 +69,8 @@ monster.voices = {
 }
 
 monster.loot = {
+	{ name = "crystal coin", chance = 26316, maxCount = 2},
 	{ name = "mantosaurus jaw", chance = 14286},
-	{ name = "crystal coin", chance = 7143, maxCount = 1},
 	{ name = "red crystal fragment", chance = 7143},
 	{ name = "cyan crystal fragment", chance = 7143},
 	{ name = "green crystal shard", chance = 7143},
@@ -78,14 +78,15 @@ monster.loot = {
 	{ name = "gold ring", chance = 5000},
 	{ name = "coral brooch", chance = 5000},
 	{ name = "ultimate mana potion", chance = 5000, maxCount = 5},
-	{ id = 3007, chance = 7143} -- crystal ring
+	{ id = 3007, chance = 7143}, -- crystal ring
+	{ id = 39546, chance = 50 } --primal bag
 }
 
 monster.attacks = {
-    {name ="combat", interval = 2000, chance = 100, minDamage = -300, maxDamage = -700 } ,
-    {name ="combat", interval = 2000, chance = 25, type = COMBAT_ENERGYDAMAGE, minDamage = -950, maxDamage = -1200, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
-    {name ="combat", interval = 3000, chance = 25, type = COMBAT_PHYSICALDAMAGE, minDamage = -800, maxDamage = -1100, range = 4, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = false},
-    {name ="combat", interval = 5000, chance = 41, type = COMBAT_EARTHDAMAGE, minDamage = -500, maxDamage = -900, range = 6, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = true},
+    {name ="combat", interval = 2000, chance = 100, minDamage = -800, maxDamage = -1200 } ,
+    {name ="combat", interval = 2000, chance = 25, type = COMBAT_ENERGYDAMAGE, minDamage = -1050, maxDamage = -1400, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
+    {name ="combat", interval = 3000, chance = 25, type = COMBAT_PHYSICALDAMAGE, minDamage = -1000, maxDamage = -1400, range = 4, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = false},
+    {name ="combat", interval = 3000, chance = 41, type = COMBAT_EARTHDAMAGE, minDamage = -700, maxDamage = -1100, range = 6, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = true},
 }
 
 monster.defenses = {

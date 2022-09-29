@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Mercurial Menace")
 local monster = {}
 
 monster.description = "a mercurial menace"
-monster.experience = 14030 
+monster.experience = 14030
 monster.outfit = {
 	lookType = 1561,
 	lookHead = 0,
@@ -80,10 +80,14 @@ monster.loot = {
 	{ name = "wand of cosmic energy", chance = 6000},
 	{ name = "gemmed figurine", chance = 6000},
 	{ name = "dream blossom staff", chance = 6000},
+	{ id = 39546, chance = 50 } --primal bag
 }
 
 monster.attacks = {
-	{name ="combat", interval = 2000, chance = 100, type = COMBAT_ENERGYDAMAGE, minDamage = -400, maxDamage = -600, range = 7, shootEffect = CONST_ANI_ENERGY, target = true},
+	{name ="combat", interval = 2000, chance = 100, minDamage = -800, maxDamage = -1200 } ,
+	{name ="combat", interval = 2000, chance = 25, type = COMBAT_ENERGYDAMAGE, minDamage = -1050, maxDamage = -1400, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
+	{name ="combat", interval = 3000, chance = 25, type = COMBAT_PHYSICALDAMAGE, minDamage = -1000, maxDamage = -1400, range = 4, radius = 4, effect = CONST_ME_EXPLOSIONHIT, target = false},
+	{name ="combat", interval = 3000, chance = 41, type = COMBAT_EARTHDAMAGE, minDamage = -700, maxDamage = -1100, range = 6, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_POISONAREA, target = true},
 	{name ="combat", interval = 2500, chance = 35, type = COMBAT_ENERGYDAMAGE, minDamage = -950, maxDamage = -1200, range = 5, radius = 5, effect = CONST_ME_PURPLESMOKE, target = false},
 }
 

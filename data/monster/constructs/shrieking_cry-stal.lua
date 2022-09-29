@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Shrieking Cry-Stal")
 local monster = {}
 
 monster.description = "a shrieking cry-stal"
-monster.experience = 15730 
+monster.experience = 15730
 monster.outfit = {
 	lookType = 1560,
 	lookHead = 0,
@@ -69,24 +69,25 @@ monster.voices = {
 }
 
 monster.loot = {
-	{ name = "great spirit potion", chance = 33333},
-	{ name = "cry-stal", chance = 31111},
 	{ name = "crystal coin", chance = 22222, maxCount = 3},
-	{ name = "violet gem", chance = 11111},
-	{ name = "rusted armor", chance = 11111},
+	{ name = "cry-stal", chance = 31111, maxCount = 2},
 	{ name = "green crystal fragment", chance = 11111},
 	{ name = "small diamond", chance = 11111, maxCount = 3},
+	{ name = "violet gem", chance = 11111},
+	{ name = "great spirit potion", chance = 33333},
+	{ name = "rusted armor", chance = 11111},
 	{ name = "terra boots", chance = 9510},
 	{ name = "protection amulet", chance = 9510},
 	{ name = "gold ring", chance = 5000},
 	{ name = "green gem", chance = 5000},
+	{ id = 39546, chance = 50 } --primal bag
 }
 
 monster.attacks = {
-    {name ="combat", interval = 2000, chance = 100, minDamage = -100, maxDamage = -500 } ,
-	{name ="singleenergychain", interval = 6000, chance = 24, minDamage = -200, maxDamage = -800, range = 4, effect = CONST_ME_ENERGYHIT, target = true},
-    {name ="combat", interval = 3000, chance = 39, type = COMBAT_PHYSICALDAMAGE, minDamage = -400, maxDamage = -800, length = 5, spread = 2, effect = CONST_ME_SOUND_PURPLE, target = false},
-    {name ="combat", interval = 2000, chance = 28, type = COMBAT_ENERGYDAMAGE, minDamage = -950, maxDamage = -1200, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
+    {name ="combat", interval = 2000, chance = 100, minDamage = -800, maxDamage = -1200 } ,
+		{name ="singleenergychain", interval = 3000, chance = 24, minDamage = -650, maxDamage = -1100, range = 4, effect = CONST_ME_ENERGYHIT, target = true},
+    {name ="combat", interval = 3000, chance = 39, type = COMBAT_PHYSICALDAMAGE, minDamage = -950, maxDamage = -1400, length = 5, spread = 2, effect = CONST_ME_SOUND_PURPLE, target = false},
+    {name ="combat", interval = 2000, chance = 28, type = COMBAT_ENERGYDAMAGE, minDamage = -900, maxDamage = -1350, range = 4, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
 }
 
 monster.defenses = {
