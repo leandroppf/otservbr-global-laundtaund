@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Noxious Ripptor")
 local monster = {}
 
 monster.description = "a noxious ripptor"
-monster.experience = 15300
+monster.experience = 18300
 monster.outfit = {
 	lookType = 1558,
 	lookHead = 0,
@@ -25,8 +25,8 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Crystal Enigma"
 }
-monster.health = 21500
-monster.maxHealth = 21500
+monster.health = 33000
+monster.maxHealth = 33000
 monster.race = "blood"
 monster.corpse = 39323
 monster.speed = 180

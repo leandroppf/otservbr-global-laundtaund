@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Headpecker")
 local monster = {}
 
 monster.description = "a headpecker"
-monster.experience = 13950
+monster.experience = 16950
 monster.outfit = {
 	lookType = 1557,
 	lookHead = 0,
@@ -26,8 +26,8 @@ monster.Bestiary = {
 	Locations = "Crystal Enigma"
 }
 
-monster.health = 14700
-monster.maxHealth = 14700
+monster.health = 26000
+monster.maxHealth = 26000
 monster.race = "blood"
 monster.corpse = 39319
 monster.speed = 217

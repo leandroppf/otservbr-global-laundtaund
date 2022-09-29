@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Shrieking Cry-Stal")
 local monster = {}
 
 monster.description = "a shrieking cry-stal"
-monster.experience = 15730
+monster.experience = 18730
 monster.outfit = {
 	lookType = 1560,
 	lookHead = 0,
@@ -25,8 +25,8 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Crystal Enigma"
 }
-monster.health = 18700
-monster.maxHealth = 18700
+monster.health = 30000
+monster.maxHealth = 30000
 monster.race = "undead"
 monster.corpse = 39331
 monster.speed = 207

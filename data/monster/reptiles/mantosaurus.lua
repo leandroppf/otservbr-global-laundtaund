@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Mantosaurus")
 local monster = {}
 
 monster.description = "a mantosaurus"
-monster.experience = 13420
+monster.experience = 16420
 monster.outfit = {
 	lookType = 1556,
 	lookHead = 0,
@@ -25,8 +25,8 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Crystal Enigma"
 }
-monster.health = 17450
-monster.maxHealth = 17450
+monster.health = 29000
+monster.maxHealth = 29000
 monster.race = "blood"
 monster.corpse = 39315
 monster.speed = 205

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Mercurial Menace")
 local monster = {}
 
 monster.description = "a mercurial menace"
-monster.experience = 14030
+monster.experience = 17030
 monster.outfit = {
 	lookType = 1561,
 	lookHead = 0,
@@ -25,8 +25,8 @@ monster.Bestiary = {
 	Occurrence = 0,
 	Locations = "Crystal Enigma"
 }
-monster.health = 16800
-monster.maxHealth = 16800
+monster.health = 28500
+monster.maxHealth = 28500
 monster.race = "blood"
 monster.corpse = 39335
 monster.speed = 190
