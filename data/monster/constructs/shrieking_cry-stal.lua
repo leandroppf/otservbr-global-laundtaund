@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Shrieking Cry-Stal")
 local monster = {}
 
 monster.description = "a shrieking cry-stal"
-monster.experience = 18730
+monster.experience = 33730
 monster.outfit = {
 	lookType = 1560,
 	lookHead = 0,

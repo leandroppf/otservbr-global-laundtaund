@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Mercurial Menace")
 local monster = {}
 
 monster.description = "a mercurial menace"
-monster.experience = 17030
+monster.experience = 32030
 monster.outfit = {
 	lookType = 1561,
 	lookHead = 0,
